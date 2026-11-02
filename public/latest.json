@@ -1,232 +1,18 @@
 {
-  "generated_at": "2026-11-02T10:03:56.800507+00:00",
+  "generated_at": "2026-11-02T10:11:46.886460+00:00",
   "leads": [
     {
-      "term": "sites",
+      "term": "eglantine",
       "kinds": [
-        "sitemap"
+        "breakout"
       ],
       "signals": [
-        "③ 竞品 692 处 (×638.1)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "co.civai.nova",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 28 处 (×25.8)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "connectors co.civai.nova",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 28 处 (×25.8)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "bgpt",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 12 处 (×11.8)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "cloudcorprecords",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 6 处 (×3.8)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "records",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 6 处 (×3.5)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "corp",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 6 处 (×3.3)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "android",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 3 处 (×1.8)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "cloud",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 6 处 (×1.5)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "connectors",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 38 处 (×0.3)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "fgr_mixer",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
+        "GitHub 爆发 Djihads80/Eglantine ★2167(均 492/天,一天 +6)"
       ],
       "examples": [
-        "Civitai: FGR_Mixer"
+        "Djihads80/Eglantine: VERY experimental Nintendo Switch 2 emulator"
       ],
-      "url": "https://civitai.com/models/2971854"
-    },
-    {
-      "term": "ski",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: SKI"
-      ],
-      "url": "https://www.producthunt.com/products/ski"
-    },
-    {
-      "term": "anireal 60 il - anime base with realism difference (illustrious)",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: AniReal 60 IL - Anime Base with Realism Difference (Illustrious)"
-      ],
-      "url": "https://civitai.com/models/3032859"
-    },
-    {
-      "term": "anireal 30 il - anime base with realism difference (illustrious)",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: AniReal 30 IL - Anime Base with Realism Difference (Illustrious)"
-      ],
-      "url": "https://civitai.com/models/3032746"
-    },
-    {
-      "term": "telemetry.dev",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: telemetry.dev"
-      ],
-      "url": "https://www.producthunt.com/products/telemetry-dev"
-    },
-    {
-      "term": "backenly",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: Backenly"
-      ],
-      "url": "https://www.producthunt.com/products/backenly-2"
-    },
-    {
-      "term": "knucklebop",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: Knucklebop"
-      ],
-      "url": "https://www.producthunt.com/products/knucklebop"
-    },
-    {
-      "term": "chainpoints",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: ChainPoints"
-      ],
-      "url": "https://www.producthunt.com/products/chainpoints"
-    },
-    {
-      "term": "secret key",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: Secret Key"
-      ],
-      "url": "https://www.producthunt.com/products/secret-key"
+      "url": "https://github.com/Djihads80/Eglantine"
     }
   ],
   "sources": [
@@ -241,14 +27,14 @@
       "id": "breakout",
       "label": "GitHub 新项目",
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "message": ""
     },
     {
       "id": "sitemap:glama",
       "label": "网站目录 · glama",
       "status": "ok",
-      "count": 66,
+      "count": 2,
       "message": "",
       "shards": 17,
       "baseline_shards": 0
@@ -257,7 +43,7 @@
       "id": "sitemap:mcp.so",
       "label": "网站目录 · mcp.so",
       "status": "ok",
-      "count": 7,
+      "count": 8,
       "message": "",
       "shards": 24,
       "baseline_shards": 0
@@ -302,7 +88,7 @@
       "id": "sitemap:ai-bot.cn",
       "label": "网站目录 · ai-bot.cn",
       "status": "ok",
-      "count": 695,
+      "count": 0,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -338,7 +124,7 @@
       "id": "sitemap:aitoptools",
       "label": "网站目录 · aitoptools",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -356,7 +142,7 @@
       "id": "feed:producthunt",
       "label": "Product Hunt",
       "status": "ok",
-      "count": 6,
+      "count": 0,
       "message": ""
     },
     {
@@ -377,7 +163,7 @@
       "id": "feed:civitai",
       "label": "Civitai",
       "status": "ok",
-      "count": 3,
+      "count": 0,
       "message": ""
     },
     {
@@ -398,6 +184,106 @@
   "mode": "free",
   "version": 2,
   "sitemap_pages": [
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.houseofdotone/carpetstory",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.houseofdotone/carpetstory",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "carpetstory",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-11-02T10:00:11.690Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.sightradar-hq/sightradar-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.sightradar-hq/sightradar-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "sightradar mcp",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-11-02T10:00:12.890Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/tossinvest-openapi-mcp",
+      "canonical_url": "https://mcp.so/servers/tossinvest-openapi-mcp",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=13",
+      "candidate": "tossinvest openapi mcp",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-16T18:23:06.244Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/kolsprite-skills",
+      "canonical_url": "https://mcp.so/servers/kolsprite-skills",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=13",
+      "candidate": "kolsprite skills",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-22T04:57:39.465Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/spotify",
+      "canonical_url": "https://mcp.so/servers/spotify",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=13",
+      "candidate": "spotify",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-16T17:34:02.498Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/mcp-server-cloudforgetech6-ctrl",
+      "canonical_url": "https://mcp.so/servers/mcp-server-cloudforgetech6-ctrl",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=13",
+      "candidate": "mcp server cloudforgetech6 ctrl",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-16T13:13:52.018Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/add-number-mcp",
+      "canonical_url": "https://mcp.so/servers/add-number-mcp",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=13",
+      "candidate": "add number mcp",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-16T17:00:24.285Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/veto",
+      "canonical_url": "https://mcp.so/servers/veto",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=13",
+      "candidate": "veto",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-16T17:02:48.309Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/lexapi-mcp",
+      "canonical_url": "https://mcp.so/servers/lexapi-mcp",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=14",
+      "candidate": "lexapi mcp",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-16T17:05:35.353Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/monapay-mcp",
+      "canonical_url": "https://mcp.so/servers/monapay-mcp",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=14",
+      "candidate": "monapay mcp",
+      "first_seen": "2026-11-02T10:07:48.007249+00:00",
+      "lastmod": "2026-10-16T15:16:57.764Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
     {
       "site": "glama",
       "url": "https://glama.ai/mcp/connectors/one.carpetstory/carpetstory-mcp",
@@ -8089,7 +7975,7 @@
       "note": "候选词由网址提取，尚未验证搜索需求"
     }
   ],
-  "sitemap_new_count": 769,
+  "sitemap_new_count": 10,
   "sitemap_history_days": 30,
   "sitemap_truncated": false,
   "competitors": [
