@@ -14,7 +14,7 @@
     byId('pageSite').innerHTML = '<option value="">所有同行</option>' + sites.map(s => '<option value="'+esc(s.id)+'">'+esc(s.id)+'</option>').join('');
     byId('pageSite').value = selected;
     const q = byId('pageSearch').value.trim().toLowerCase();
-    const filtered = rows.filter(r => (!selected || r.site === selected) && (!q || (String(r.candidate||'')+' '+String(r.url||'')).toLowerCase().includes(q)));
+    const filtered = rows.filter(r => (!selected || r.site === selected) && (!byId('onlyCandidates').checked || !!String(r.candidate||'').trim()) && (!q || (String(r.candidate||'')+' '+String(r.url||'')).toLowerCase().includes(q)));
     byId('pageBadge').textContent = '本次新发现 '+(data.sitemap_new_count ?? '—')+' 条';
     byId('pageRows').innerHTML = filtered.length ? filtered.slice(0,shown).map(r => {
       const term = String(r.candidate||'').trim();
@@ -36,6 +36,7 @@
   const originalDisplay = display;
   display = function(){ originalDisplay(); render(); };
   byId('pageSearch').addEventListener('input', () => {shown=50;render();});
+  byId('onlyCandidates').addEventListener('change', () => {shown=50;render();});
   byId('pageSite').addEventListener('change', () => {shown=50;render();});
   byId('morePages').addEventListener('click', () => {shown+=50;render();});
   const endpoint = 'https://api.github.com/repos/seekitx/new-term-radar-free-data/contents/free-config.json';
