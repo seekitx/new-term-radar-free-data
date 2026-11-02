@@ -61,6 +61,11 @@
     "futurepedia": {
       "index": "https://www.futurepedia.io/sitemap_tools.xml",
       "pause": 2
+    },
+    "dragganaitool": {
+      "index": "https://dragganaitool.com/sitemap_index.xml",
+      "shards": "/post-sitemap[0-9]*\\.xml$",
+      "pause": 3
     }
   },
   "topics": {
