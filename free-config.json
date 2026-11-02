@@ -66,6 +66,11 @@
       "index": "https://dragganaitool.com/sitemap_index.xml",
       "shards": "/post-sitemap[0-9]*\\.xml$",
       "pause": 3
+    },
+    "poki-games": {
+      "index": "https://poki.com/en/sitemaps/games.xml",
+      "pause": 3,
+      "monitor_id": "bb5e0fea-800c-4b54-8a44-3445abc172c3"
     }
   },
   "topics": {
