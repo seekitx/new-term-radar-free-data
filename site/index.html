@@ -10,7 +10,7 @@
 <section class="metrics"><div class="metric"><div class="metric-head">本次候选词 <span class="metric-icon">✳</span></div><div class="metric-value" id="mLeads">—</div><div class="metric-foot">多来源合并后的候选线索</div></div><div class="metric"><div class="metric-head">正常来源 <span class="metric-icon">◉</span></div><div class="metric-value" id="mOk">—</div><div class="metric-foot">成功完成采集的来源</div></div><div class="metric"><div class="metric-head">建立基线 <span class="metric-icon">⌁</span></div><div class="metric-value" id="mBaseline">—</div><div class="metric-foot">首次记录，等待下次对比</div></div><div class="metric"><div class="metric-head">未成功来源 <span class="metric-icon">!</span></div><div class="metric-value" id="mError">—</div><div class="metric-foot">可在右侧查看详情</div></div></section>
 <div class="columns"><section class="panel"><div class="panel-head"><div><div class="panel-title">发现的新名字</div><div class="panel-sub">名称来自公开来源，保留来源说明方便你核对</div></div><span class="badge" id="tableBadge">正在读取</span></div><div class="filters"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="hf">热门模型</button><button class="filter" data-filter="breakout">GitHub 项目</button><button class="filter" data-filter="feed">新上榜</button><button class="filter" data-filter="sitemap">网站新词</button><input class="search" id="search" placeholder="⌕  搜索新名字" aria-label="搜索新名字"></div><div class="tablewrap"><table><thead><tr><th>候选名称</th><th>来源</th><th>发现依据</th><th>原始链接</th></tr></thead><tbody id="rows"><tr><td colspan="4" class="empty">正在读取数据…</td></tr></tbody></table></div><div class="panel-foot" id="rowCount">免费来源只提供线索，不代表真实搜索量或赚钱能力。</div></section>
 <aside class="right"><section class="panel"><div class="panel-head"><div><div class="panel-title">来源运行情况</div><div class="panel-sub">失败或首次采集的来源会在此显示</div></div><span class="metric-icon">◌</span></div><div class="signal-list" id="signals"><div class="empty-box">正在读取…</div></div><div class="panel-foot">点击来源可查看具体状态</div></section><div class="how"><h3>怎样理解这些线索？</h3><p>这里展示公开来源中出现的新项目、新模型和上榜内容。首次采集会建立对照；空列表不等于没有新事物。未接入付费服务，因此没有搜索量和推荐优先级。</p><a href="https://github.com/zhuyansen/new-term-radar" target="_blank" rel="noopener noreferrer">了解原项目 ↗</a></div></aside></div><section class="panel wide-panel" id="new-pages"><div class="panel-head"><div><div class="panel-title">同行新增网址</div><div class="panel-sub">逐条查看本雷达首次发现的网址；对照记录之前已有的页面不会当作新增</div></div><span class="badge" id="pageBadge">正在读取</span></div><div class="tools"><select id="pageSite" aria-label="选择同行"><option value="">所有同行</option></select><input id="pageSearch" placeholder="⌕  搜索候选词或网址" aria-label="搜索候选词或网址"><label class="tagline"><input type="checkbox" id="onlyCandidates"> 只看已提取候选词</label><span class="tagline">展示最近 30 天，最多 5,000 条</span></div><div class="tablewrap"><table><thead><tr><th>候选词</th><th>同行 / 首次发现</th><th>新增网址</th><th>免费验证入口</th></tr></thead><tbody id="pageRows"><tr><td colspan="4" class="empty">正在读取数据…</td></tr></tbody></table></div><div class="panel-foot" id="pageFoot">网址中提取的只是候选词，并不代表新产生的需求或有搜索量；搜索结果和趋势需手动核验。</div><div class="tools"><button class="btn" id="morePages" hidden>显示更多</button></div></section>
-<section class="panel wide-panel" id="competitors"><div class="panel-head"><div><div class="panel-title">同行管理</div><div class="panel-sub">查看正在监控的网站，也可以通过 GitHub 授权修改每日采集名单</div></div><span class="badge" id="competitorBadge">正在读取</span></div><div class="tablewrap"><table><thead><tr><th>同行</th><th>监控地址</th><th>状态</th><th>本次新增</th></tr></thead><tbody id="competitorRows"><tr><td colspan="4" class="empty">正在读取数据…</td></tr></tbody></table></div><details class="editor"><summary>管理监控名单（需要 GitHub 管理权限）</summary><p class="help">这里通过 GitHub 保存名单，下一次自动采集生效。新加入或修改监控范围的网站会先建立对照，之后才能识别新增。操作需要一个只对本仓库开放“内容读写”的 GitHub 个人访问令牌；令牌只留在当前页面内存中，刷新即清除，直接发给 GitHub，不会保存到报告。<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">创建令牌 ↗</a>　<a href="https://github.com/seekitx/new-term-radar-free-data/edit/main/free-config.json" target="_blank" rel="noopener noreferrer">也可直接在 GitHub 修改 ↗</a></p><label for="ghToken">GitHub 个人访问令牌</label><input type="password" id="ghToken" autocomplete="off" placeholder="仅保留在本页面内存，刷新后清除"><div><button class="btn" id="manageLoad">读取当前名单</button></div><p class="help">下方操作会立即保存到 GitHub。同行名称必须唯一；清单地址应填写对应网站公开的 Sitemap 地址。如果是目录索引，可填写筛选内容清单的规则；留空时自动选择文章、产品、工具、游戏及页面类清单。</p><div id="managedList"></div><label for="newSiteName">同行名称（英文字母、数字、点、短横线）</label><input type="text" id="newSiteName" placeholder="例如 example-tools"><label for="newSiteUrl">Sitemap 地址（以 https:// 开头）</label><input type="url" id="newSiteUrl" placeholder="https://example.com/sitemap.xml"><label for="newSitePattern">内容子清单筛选规则（可留空，按网址匹配）</label><input type="text" id="newSitePattern" placeholder="例如 post-sitemap|product-sitemap"><div><button class="btn primary" id="manageAdd">添加并保存</button></div><div class="manager-status" id="managerStatus" role="status"></div></details></section>
+<section class="panel wide-panel" id="competitors"><div class="panel-head"><div><div class="panel-title">同行管理</div><div class="panel-sub">查看正在监控的网站，也可以通过 GitHub 授权修改每日采集名单</div></div><span class="badge" id="competitorBadge">正在读取</span></div><div class="tablewrap"><table><thead><tr><th>同行</th><th>监控地址</th><th>状态</th><th>本次新增</th></tr></thead><tbody id="competitorRows"><tr><td colspan="4" class="empty">正在读取数据…</td></tr></tbody></table></div><details class="editor"><summary>管理监控名单（需要 GitHub 管理权限）</summary><p class="help">通过 GitHub 登录管理员账号后，可以在线添加、修改、暂停和移除同行；保存后下次采集生效。首次登录需要在 GitHub 输入一次短验证码并授权。登录凭据只留在本页面内存，关闭或刷新页面后需重新登录。<a href="https://github.com/seekitx/new-term-radar-free-data/edit/main/free-config.json" target="_blank" rel="noopener noreferrer">也可直接在 GitHub 修改 ↗</a></p><button class="btn primary" id="loginButton">使用 GitHub 登录管理员</button><div id="loginInstructions" hidden><p class="help">请打开 <a href="https://github.com/login/device" target="_blank" rel="noopener noreferrer">GitHub 验证页面 ↗</a>，输入此验证码并确认登录：</p><strong id="loginCode" style="font-size:20px;letter-spacing:.12em"></strong></div><div><button class="btn" id="manageLoad">读取当前名单</button></div><p class="help">下方操作会立即保存到 GitHub。同行名称必须唯一；清单地址应填写对应网站公开的 Sitemap 地址。如果是目录索引，可填写筛选内容清单的规则；留空时自动选择文章、产品、工具、游戏及页面类清单。</p><div id="managedList"></div><label for="newSiteName">同行名称（英文字母、数字、点、短横线）</label><input type="text" id="newSiteName" placeholder="例如 example-tools"><label for="newSiteUrl">Sitemap 地址（以 https:// 开头）</label><input type="url" id="newSiteUrl" placeholder="https://example.com/sitemap.xml"><label for="newSitePattern">内容子清单筛选规则（可留空，按网址匹配）</label><input type="text" id="newSitePattern" placeholder="例如 post-sitemap|product-sitemap"><div><button class="btn primary" id="manageAdd">添加并保存</button></div><div class="manager-status" id="managerStatus" role="status"></div></details></section>
 <div class="footer"><span>NEW TERM RADAR &nbsp; / &nbsp; 每日公开来源观察</span><span>时间以页面显示为准 · 结果仅供研究参考</span></div></div></main></div>
 <script>
 const dataUrl='https://raw.githubusercontent.com/seekitx/new-term-radar-free-data/main/public/latest.json';
@@ -21,7 +21,7 @@ async function load(){ $('status').textContent='正在读取';try{let response;t
 document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.filter;if(data)display()});document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{filter=b.dataset.view;if(data)display()});$('search').oninput=()=>{if(data)display()};$('refresh').onclick=load;load();</script><script>
 // Public read-only report plus optional direct GitHub configuration management.
 (() => {
-  let shown = 50, managed = null;
+  let shown = 50, managed = null, authToken = '', loginInProgress = false;
   const byId = id => document.getElementById(id);
   const encode = value => encodeURIComponent(value);
   const fmt = value => { const d = new Date(value); return isNaN(d) ? '时间未知' : d.toLocaleString('zh-CN', {timeZone:'Asia/Taipei', hour12:false}); };
@@ -68,8 +68,8 @@ document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{filter=b.da
     return url.href;
   }
   function headers() {
-    const token = byId('ghToken').value.trim();
-    if (!token) throw Error('请先填写 GitHub 个人访问令牌。');
+    const token = authToken;
+    if (!token) throw Error('请先通过 GitHub 登录管理员账号。');
     return {'Accept':'application/vnd.github+json','Authorization':'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28'};
   }
   async function readConfig(){
@@ -104,6 +104,42 @@ document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{filter=b.da
       const del=document.createElement('button');del.className='btn danger';del.textContent='移除';del.onclick=()=>{if(confirm('确定从每日监控中移除 '+id+'？已发现的近期明细仍会保留到保存期限结束。'))save(sites=>{if(!sites[id])throw Error('该同行已不存在，请重新读取。');delete sites[id];},'移除同行监控').catch(e=>setStatus(e.message));};row.append(del);target.append(row);
     });
   }
+  const relay = 'https://term-admin-login.erichunn-me.workers.dev';
+  async function login(){
+    if(loginInProgress)return;
+    loginInProgress=true;
+    try{
+      setStatus('正在请求 GitHub 登录验证码…');
+      const initial=await fetch(relay+'/start',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}',cache:'no-store'});
+      const info=await initial.json();
+      if(!initial.ok||info.error||!info.device_code||!info.user_code||info.verification_uri!=='https://github.com/login/device')throw Error('暂时无法启动 GitHub 登录，请稍后重试。');
+      byId('loginCode').textContent=info.user_code;
+      byId('loginInstructions').hidden=false;
+      setStatus('请打开 GitHub，输入上方验证码并确认授权。');
+      let delay=Math.max(5,Number(info.interval)||5)*1000;
+      const deadline=Date.now()+Math.min(Number(info.expires_in)||900,900)*1000;
+      while(Date.now()<deadline){
+        await new Promise(resolve=>setTimeout(resolve,delay));
+        const response=await fetch(relay+'/poll',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({device_code:info.device_code}),cache:'no-store'});
+        const result=await response.json();
+        if(result.error==='authorization_pending')continue;
+        if(result.error==='slow_down'){delay=Math.max(delay+5000,(Number(result.interval)||0)*1000);continue;}
+        if(!response.ok||result.error||!result.access_token)throw Error('登录未完成或已过期，请重新登录。');
+        authToken=result.access_token;
+        const identityResponse=await fetch('https://api.github.com/user',{headers:headers(),cache:'no-store'});
+        if(!identityResponse.ok)throw Error('无法确认 GitHub 登录身份。');
+        const identity=await identityResponse.json();
+        if(identity.id!==31688720){authToken='';throw Error('当前 GitHub 账号不是雷达管理员，请切换到授权账号后重试。');}
+        const current=await readConfig();managed=current.config.sitemaps;renderManager();
+        byId('loginInstructions').hidden=true;
+        byId('loginButton').textContent='已登录 GitHub · 点击重新登录';
+        setStatus('管理员已登录，当前名单已读取。');return;
+      }
+      throw Error('验证码已过期，请重新登录。');
+    }catch(e){authToken='';setStatus(e.message);}
+    finally{loginInProgress=false;}
+  }
+  byId('loginButton').onclick=login;
   byId('manageLoad').onclick=async()=>{try{setStatus('正在读取…');const r=await readConfig();managed=r.config.sitemaps;renderManager();setStatus('名单已读取，可以添加、暂停或移除同行。');}catch(e){setStatus(e.message);}};
   byId('manageAdd').onclick=async()=>{try{
     const id=byId('newSiteName').value.trim(), address=byId('newSiteUrl').value.trim(), pattern=byId('newSitePattern').value.trim();

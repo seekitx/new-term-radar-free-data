@@ -1,6 +1,6 @@
 // Public read-only report plus optional direct GitHub configuration management.
 (() => {
-  let shown = 50, managed = null;
+  let shown = 50, managed = null, authToken = '', loginInProgress = false;
   const byId = id => document.getElementById(id);
   const encode = value => encodeURIComponent(value);
   const fmt = value => { const d = new Date(value); return isNaN(d) ? '时间未知' : d.toLocaleString('zh-CN', {timeZone:'Asia/Taipei', hour12:false}); };
@@ -47,8 +47,8 @@
     return url.href;
   }
   function headers() {
-    const token = byId('ghToken').value.trim();
-    if (!token) throw Error('请先填写 GitHub 个人访问令牌。');
+    const token = authToken;
+    if (!token) throw Error('请先通过 GitHub 登录管理员账号。');
     return {'Accept':'application/vnd.github+json','Authorization':'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28'};
   }
   async function readConfig(){
@@ -83,6 +83,42 @@
       const del=document.createElement('button');del.className='btn danger';del.textContent='移除';del.onclick=()=>{if(confirm('确定从每日监控中移除 '+id+'？已发现的近期明细仍会保留到保存期限结束。'))save(sites=>{if(!sites[id])throw Error('该同行已不存在，请重新读取。');delete sites[id];},'移除同行监控').catch(e=>setStatus(e.message));};row.append(del);target.append(row);
     });
   }
+  const relay = 'https://term-admin-login.erichunn-me.workers.dev';
+  async function login(){
+    if(loginInProgress)return;
+    loginInProgress=true;
+    try{
+      setStatus('正在请求 GitHub 登录验证码…');
+      const initial=await fetch(relay+'/start',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}',cache:'no-store'});
+      const info=await initial.json();
+      if(!initial.ok||info.error||!info.device_code||!info.user_code||info.verification_uri!=='https://github.com/login/device')throw Error('暂时无法启动 GitHub 登录，请稍后重试。');
+      byId('loginCode').textContent=info.user_code;
+      byId('loginInstructions').hidden=false;
+      setStatus('请打开 GitHub，输入上方验证码并确认授权。');
+      let delay=Math.max(5,Number(info.interval)||5)*1000;
+      const deadline=Date.now()+Math.min(Number(info.expires_in)||900,900)*1000;
+      while(Date.now()<deadline){
+        await new Promise(resolve=>setTimeout(resolve,delay));
+        const response=await fetch(relay+'/poll',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({device_code:info.device_code}),cache:'no-store'});
+        const result=await response.json();
+        if(result.error==='authorization_pending')continue;
+        if(result.error==='slow_down'){delay=Math.max(delay+5000,(Number(result.interval)||0)*1000);continue;}
+        if(!response.ok||result.error||!result.access_token)throw Error('登录未完成或已过期，请重新登录。');
+        authToken=result.access_token;
+        const identityResponse=await fetch('https://api.github.com/user',{headers:headers(),cache:'no-store'});
+        if(!identityResponse.ok)throw Error('无法确认 GitHub 登录身份。');
+        const identity=await identityResponse.json();
+        if(identity.id!==31688720){authToken='';throw Error('当前 GitHub 账号不是雷达管理员，请切换到授权账号后重试。');}
+        const current=await readConfig();managed=current.config.sitemaps;renderManager();
+        byId('loginInstructions').hidden=true;
+        byId('loginButton').textContent='已登录 GitHub · 点击重新登录';
+        setStatus('管理员已登录，当前名单已读取。');return;
+      }
+      throw Error('验证码已过期，请重新登录。');
+    }catch(e){authToken='';setStatus(e.message);}
+    finally{loginInProgress=false;}
+  }
+  byId('loginButton').onclick=login;
   byId('manageLoad').onclick=async()=>{try{setStatus('正在读取…');const r=await readConfig();managed=r.config.sitemaps;renderManager();setStatus('名单已读取，可以添加、暂停或移除同行。');}catch(e){setStatus(e.message);}};
   byId('manageAdd').onclick=async()=>{try{
     const id=byId('newSiteName').value.trim(), address=byId('newSiteUrl').value.trim(), pattern=byId('newSitePattern').value.trim();
