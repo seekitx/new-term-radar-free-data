@@ -1,445 +1,26 @@
 {
-  "generated_at": "2026-11-02T14:54:56.894082+00:00",
-  "leads": [
-    {
-      "term": "audio8 tts realistic air",
-      "kinds": [
-        "hf"
-      ],
-      "signals": [
-        "HF 新进榜第 17 名"
-      ],
-      "examples": [
-        "Edge0/Audio8-TTS-Realistic-Air (text-to-speech, ♥237)",
-        "Edge0/Audio8-TTS-Realistic-Air (gradio, ♥18)"
-      ],
-      "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air"
-    },
-    {
-      "term": "noir",
-      "kinds": [
-        "breakout"
-      ],
-      "signals": [
-        "GitHub 爆发 Verlintas/NOIR ★1015(均 590/天,一天 +273)"
-      ],
-      "examples": [
-        "Verlintas/NOIR: 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, revers"
-      ],
-      "url": "https://github.com/Verlintas/NOIR"
-    },
-    {
-      "term": "uncut",
-      "kinds": [
-        "breakout"
-      ],
-      "signals": [
-        "GitHub 爆发 Balanov/uncut ★544(均 544/天,一天 +77)"
-      ],
-      "examples": [
-        "Balanov/uncut: The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts."
-      ],
-      "url": "https://github.com/Balanov/uncut"
-    },
-    {
-      "term": "genpark personal",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 14 处 (×12.3)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "discrimination",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "reflex",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 3 处 (×2.9)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "google",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 6 处 (×2.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "bridge",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×1.5)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "research",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 3 处 (×1.5)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "glm 5.3 flashx legal",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "OpenRouter 新上架"
-      ],
-      "examples": [
-        "OpenRouter: GLM 5.3 FlashX Legal"
-      ],
-      "url": "https://openrouter.ai/z-ai/glm-5.3-flashx-legal"
-    },
-    {
-      "term": "vimeo",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Vimeo"
-      ],
-      "url": "https://apps.apple.com/us/app/vimeo/id425194759?uo=2"
-    },
-    {
-      "term": "bigvu teleprompter captions ai",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: BIGVU Teleprompter Captions AI"
-      ],
-      "url": "https://apps.apple.com/us/app/bigvu-teleprompter-captions-ai/id1124958568?uo=2"
-    },
-    {
-      "term": "rumble: live streaming, videos",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Rumble: Live Streaming, Videos"
-      ],
-      "url": "https://apps.apple.com/us/app/rumble-live-streaming-videos/id1518427877?uo=2"
-    },
-    {
-      "term": "mematic - the meme maker",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Mematic - The Meme Maker"
-      ],
-      "url": "https://apps.apple.com/us/app/mematic-the-meme-maker/id491076730?uo=2"
-    },
-    {
-      "term": "piemoss",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: PieMOSS"
-      ],
-      "url": "https://civitai.com/models/3023619"
-    },
-    {
-      "term": "anireal 120 il - anime base with realism difference (illustrious)",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: AniReal 120 IL - Anime Base with Realism Difference (Illustrious)"
-      ],
-      "url": "https://civitai.com/models/3032927"
-    },
-    {
-      "term": "anireal 90 il - anime base with realism difference (illustrious)",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: AniReal 90 IL - Anime Base with Realism Difference (Illustrious)"
-      ],
-      "url": "https://civitai.com/models/3032890"
-    },
-    {
-      "term": "split pic collage maker layout",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Split Pic Collage Maker Layout"
-      ],
-      "url": "https://apps.apple.com/us/app/split-pic-collage-maker-layout/id570748340?uo=2"
-    },
-    {
-      "term": "remodel ai - home design",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Remodel AI - Home Design"
-      ],
-      "url": "https://apps.apple.com/us/app/remodel-ai-home-design/id6446040791?uo=2"
-    },
-    {
-      "term": "godwit",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: Godwit"
-      ],
-      "url": "https://www.producthunt.com/products/godwit"
-    },
-    {
-      "term": "basetab ai",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: BaseTab AI"
-      ],
-      "url": "https://www.producthunt.com/products/basetab-ai"
-    },
-    {
-      "term": "lumafold: screen light",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Product Hunt 新上架"
-      ],
-      "examples": [
-        "Product Hunt: LumaFold: Screen Light"
-      ],
-      "url": "https://www.producthunt.com/products/lumafold-screen-light"
-    },
-    {
-      "term": "hackerhack",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Show HN 新上架"
-      ],
-      "examples": [
-        "Show HN: HackerHack"
-      ],
-      "url": "https://news.ycombinator.com/"
-    },
-    {
-      "term": "i've updated my linux system call website and api",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Show HN 新上架"
-      ],
-      "examples": [
-        "Show HN: I've updated my Linux System Call website and API"
-      ],
-      "url": "https://syscall.sh/"
-    },
-    {
-      "term": "bridge toons comic mics v6",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: Bridge Toons Comic Mics v6"
-      ],
-      "url": "https://civitai.com/models/3033239"
-    },
-    {
-      "term": "sexy toons feat. pipa",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: Sexy Toons feat. Pipa"
-      ],
-      "url": "https://civitai.com/models/35549"
-    },
-    {
-      "term": "anima delta mix 3.8b qwen 0.6b",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: Anima Delta Mix 3.8B Qwen 0.6B"
-      ],
-      "url": "https://civitai.com/models/2896329"
-    },
-    {
-      "term": "miaomiao 3d harem",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: MiaoMiao 3D Harem"
-      ],
-      "url": "https://civitai.com/models/431957"
-    },
-    {
-      "term": "ciel 2 (神椿studio)",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: CIEL 2 (神椿Studio)"
-      ],
-      "url": "https://civitai.com/models/3032900"
-    },
-    {
-      "term": "pdf converter - word to pdf",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: PDF Converter - Word to PDF"
-      ],
-      "url": "https://apps.apple.com/us/app/pdf-converter-word-to-pdf/id1515133401?uo=2"
-    },
-    {
-      "term": "flyer maker + poster maker",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Flyer Maker + Poster Maker"
-      ],
-      "url": "https://apps.apple.com/us/app/flyer-maker-poster-maker/id1337666644?uo=2"
-    },
-    {
-      "term": "house ai: ai room design, home",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: House AI: AI Room Design, Home"
-      ],
-      "url": "https://apps.apple.com/us/app/house-ai-ai-room-design-home/id6749636465?uo=2"
-    },
-    {
-      "term": "construction master pro calc",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Construction Master Pro Calc"
-      ],
-      "url": "https://apps.apple.com/us/app/construction-master-pro-calc/id370406446?uo=2"
-    }
-  ],
+  "generated_at": "2026-11-02T15:02:46.327776+00:00",
+  "leads": [],
   "sources": [
     {
       "id": "hf",
       "label": "Hugging Face 热门",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "message": ""
     },
     {
       "id": "breakout",
       "label": "GitHub 新项目",
       "status": "ok",
-      "count": 2,
+      "count": 0,
       "message": ""
     },
     {
       "id": "sitemap:glama",
       "label": "网站目录 · glama",
       "status": "ok",
-      "count": 264,
+      "count": 0,
       "message": "",
       "shards": 17,
       "baseline_shards": 0
@@ -448,7 +29,7 @@
       "id": "sitemap:mcp.so",
       "label": "网站目录 · mcp.so",
       "status": "ok",
-      "count": 16,
+      "count": 7,
       "message": "",
       "shards": 24,
       "baseline_shards": 0
@@ -511,7 +92,7 @@
       "id": "sitemap:dang",
       "label": "网站目录 · dang",
       "status": "ok",
-      "count": 5,
+      "count": 0,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -529,7 +110,7 @@
       "id": "sitemap:aitoptools",
       "label": "网站目录 · aitoptools",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -546,45 +127,54 @@
     {
       "id": "sitemap:dragganaitool",
       "label": "网站目录 · dragganaitool",
-      "status": "baseline",
+      "status": "ok",
       "count": 0,
       "message": "",
       "shards": 9,
-      "baseline_shards": 9
+      "baseline_shards": 0
+    },
+    {
+      "id": "sitemap:poki-games",
+      "label": "网站目录 · poki-games",
+      "status": "baseline",
+      "count": 0,
+      "message": "",
+      "shards": 1,
+      "baseline_shards": 1
     },
     {
       "id": "feed:producthunt",
       "label": "Product Hunt",
       "status": "ok",
-      "count": 3,
+      "count": 0,
       "message": ""
     },
     {
       "id": "feed:hn",
       "label": "Show HN",
       "status": "ok",
-      "count": 2,
+      "count": 0,
       "message": ""
     },
     {
       "id": "feed:openrouter",
       "label": "OpenRouter",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "message": ""
     },
     {
       "id": "feed:civitai",
       "label": "Civitai",
       "status": "ok",
-      "count": 8,
+      "count": 0,
       "message": ""
     },
     {
       "id": "feed:appstore",
       "label": "App Store",
       "status": "ok",
-      "count": 10,
+      "count": 0,
       "message": ""
     },
     {
@@ -598,6 +188,76 @@
   "mode": "free",
   "version": 2,
   "sitemap_pages": [
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/hirebase-mcp",
+      "canonical_url": "https://mcp.so/servers/hirebase-mcp",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=3",
+      "candidate": "hirebase mcp",
+      "first_seen": "2026-11-02T14:58:30.556522+00:00",
+      "lastmod": "2026-10-16T17:18:41.322Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/mcp-http",
+      "canonical_url": "https://mcp.so/servers/mcp-http",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=14",
+      "candidate": "mcp http",
+      "first_seen": "2026-11-02T14:58:30.556522+00:00",
+      "lastmod": "2026-10-16T17:37:04.708Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/oracle-sales-mcp-server-by-cdata",
+      "canonical_url": "https://mcp.so/servers/oracle-sales-mcp-server-by-cdata",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=14",
+      "candidate": "oracle sales mcp server by cdata",
+      "first_seen": "2026-11-02T14:58:30.556522+00:00",
+      "lastmod": "2026-10-16T12:40:35.774Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/texas-rrc-wellbore-intelligence",
+      "canonical_url": "https://mcp.so/servers/texas-rrc-wellbore-intelligence",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=14",
+      "candidate": "texas rrc wellbore intelligence",
+      "first_seen": "2026-11-02T14:58:30.556522+00:00",
+      "lastmod": "2026-10-16T17:54:54.641Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/ebitengine-mcp",
+      "canonical_url": "https://mcp.so/servers/ebitengine-mcp",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=15",
+      "candidate": "ebitengine mcp",
+      "first_seen": "2026-11-02T14:58:30.556522+00:00",
+      "lastmod": "2026-10-16T05:16:36.728Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/mcp_chart",
+      "canonical_url": "https://mcp.so/servers/mcp_chart",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=15",
+      "candidate": "mcp chart",
+      "first_seen": "2026-11-02T14:58:30.556522+00:00",
+      "lastmod": "2026-10-16T14:44:17.545Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/chrome-debug-mcp-raultov",
+      "canonical_url": "https://mcp.so/servers/chrome-debug-mcp-raultov",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=17",
+      "candidate": "chrome debug mcp raultov",
+      "first_seen": "2026-11-02T14:58:30.556522+00:00",
+      "lastmod": "2026-10-16T14:14:18.931Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
     {
       "site": "glama",
       "url": "https://glama.ai/mcp/connectors/co.paperjoy/paperjoy",
@@ -11249,7 +10909,7 @@
       "note": "候选词由网址提取，尚未验证搜索需求"
     }
   ],
-  "sitemap_new_count": 286,
+  "sitemap_new_count": 7,
   "sitemap_history_days": 30,
   "sitemap_truncated": false,
   "competitors": [
@@ -11330,6 +10990,12 @@
       "index": "https://dragganaitool.com/sitemap_index.xml",
       "enabled": true,
       "shards": "/post-sitemap[0-9]*\\.xml$"
+    },
+    {
+      "id": "poki-games",
+      "index": "https://poki.com/en/sitemaps/games.xml",
+      "enabled": true,
+      "shards": ""
     }
   ]
 }
