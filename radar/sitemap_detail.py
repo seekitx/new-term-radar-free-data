@@ -174,7 +174,8 @@ def collect(cfg, state: Path, fetch):
                               'first_seen':now.isoformat(),'lastmod':lastmod or None,
                               'note':'候选词由网址提取，尚未验证搜索需求'}
                         local_new.append(item)
-                        local_recent.append((normalized,sitemaps.slug_text(normalized)))
+                        if item['candidate']:
+                            local_recent.append((normalized, item['candidate']))
                 pending.append((path,sorted(now_urls)))
             for path, data in pending:
                 snap.save(path, data)
