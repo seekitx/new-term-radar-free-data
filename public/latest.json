@@ -1,0 +1,708 @@
+{
+  "generated_at": "2026-11-02T09:21:51.781040+00:00",
+  "leads": [
+    {
+      "term": "pixelfx",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 patch-gg/pixelfx ★3082(均 992/天)"
+      ],
+      "examples": [
+        "patch-gg/pixelfx: 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+      ],
+      "url": "https://github.com/patch-gg/pixelfx"
+    },
+    {
+      "term": "stack diagram",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 caru-ini/stack-diagram ★774(均 670/天)"
+      ],
+      "examples": [
+        "caru-ini/stack-diagram: Agent skill: describe your stack in a sentence, get an architecture diagram with official logos"
+      ],
+      "url": "https://github.com/caru-ini/stack-diagram"
+    },
+    {
+      "term": "dsh superagent prototype",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 deepseek-ai/dsh-superagent-prototype ★10555(均 5305/天)"
+      ],
+      "examples": [
+        "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System"
+      ],
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+    },
+    {
+      "term": "unslop",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 heydamir/unslop ★5287(均 1416/天)"
+      ],
+      "examples": [
+        "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
+      ],
+      "url": "https://github.com/heydamir/unslop"
+    },
+    {
+      "term": "mika",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 wangzan101/Mika ★4636(均 1226/天)"
+      ],
+      "examples": [
+        "wangzan101/Mika: An on-device AI agent for Android that operates apps and the web to get things done for you."
+      ],
+      "url": "https://github.com/wangzan101/Mika"
+    },
+    {
+      "term": "craft anything",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 storytold/craft-anything ★1999(均 1130/天)"
+      ],
+      "examples": [
+        "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own."
+      ],
+      "url": "https://github.com/storytold/craft-anything"
+    },
+    {
+      "term": "ai pose gallery zh",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 anhao/ai-pose-gallery-zh ★5346(均 911/天)"
+      ],
+      "examples": [
+        "anhao/ai-pose-gallery-zh: 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+      ],
+      "url": "https://github.com/anhao/ai-pose-gallery-zh"
+    },
+    {
+      "term": "totk pc recomp",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 valentderah/totk-pc-recomp ★3457(均 895/天)"
+      ],
+      "examples": [
+        "valentderah/totk-pc-recomp: Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game"
+      ],
+      "url": "https://github.com/valentderah/totk-pc-recomp"
+    },
+    {
+      "term": "ub mode",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 unclebob/ub-mode ★6402(均 830/天)"
+      ],
+      "examples": [
+        "unclebob/ub-mode: "
+      ],
+      "url": "https://github.com/unclebob/ub-mode"
+    },
+    {
+      "term": "aerial tv",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 pengchujin/aerial-tv ★8873(均 682/天)"
+      ],
+      "examples": [
+        "pengchujin/aerial-tv: 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+      ],
+      "url": "https://github.com/pengchujin/aerial-tv"
+    },
+    {
+      "term": "dsh go",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 ccch1mneyyy/dsh-Go ★5289(均 657/天)"
+      ],
+      "examples": [
+        "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
+      ],
+      "url": "https://github.com/ccch1mneyyy/dsh-Go"
+    },
+    {
+      "term": "android ad cleaner",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 rddmwmddr/android-ad-cleaner ★5789(均 632/天)"
+      ],
+      "examples": [
+        "rddmwmddr/android-ad-cleaner: 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
+      ],
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+    },
+    {
+      "term": "zero breach toolkit",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 interplains/Zero-Breach-Toolkit ★4195(均 540/天)"
+      ],
+      "examples": [
+        "interplains/Zero-Breach-Toolkit: Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, An"
+      ],
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit"
+    },
+    {
+      "term": "hop",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 Arjun-Ingole/hop ★1285(均 501/天)"
+      ],
+      "examples": [
+        "Arjun-Ingole/hop: Install Linux next to Windows without a USB stick"
+      ],
+      "url": "https://github.com/Arjun-Ingole/hop"
+    },
+    {
+      "term": "gpu unlock ada",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 JustAResearcher/gpu-unlock-ada ★4686(均 493/天)"
+      ],
+      "examples": [
+        "JustAResearcher/gpu-unlock-ada: GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
+      ],
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada"
+    },
+    {
+      "term": "omega mix | illustrious xl",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Omega Mix | Illustrious XL"
+      ],
+      "url": "https://civitai.com/models/3032422"
+    },
+    {
+      "term": "krea-2-turbo-bbox",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Krea-2-Turbo-BBox"
+      ],
+      "url": "https://civitai.com/models/3032531"
+    },
+    {
+      "term": "panini",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Panini"
+      ],
+      "url": "https://civitai.com/models/3023845"
+    },
+    {
+      "term": "cyberrealistic z-image turbo",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: CyberRealistic Z-Image Turbo"
+      ],
+      "url": "https://civitai.com/models/2218365"
+    },
+    {
+      "term": "help",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Help"
+      ],
+      "url": "https://www.producthunt.com/products/help-381"
+    },
+    {
+      "term": "agent inbox",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Agent Inbox"
+      ],
+      "url": "https://www.producthunt.com/products/agent-inbox"
+    },
+    {
+      "term": "xmind 2027",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Xmind 2027"
+      ],
+      "url": "https://www.producthunt.com/products/xmind"
+    },
+    {
+      "term": "friday work",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Friday Work"
+      ],
+      "url": "https://www.producthunt.com/products/friday-work"
+    },
+    {
+      "term": "agentmash",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: agentmash"
+      ],
+      "url": "https://www.producthunt.com/products/agentmash"
+    },
+    {
+      "term": "hackerbooks",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: HackerBooks"
+      ],
+      "url": "https://hackerbooks.org"
+    },
+    {
+      "term": "omnidiff",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: OmniDiff"
+      ],
+      "url": "https://github.com/ivankovic/omnidiff"
+    },
+    {
+      "term": "wikihack",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: Wikihack"
+      ],
+      "url": "https://wikihack.netlify.app"
+    },
+    {
+      "term": "a language model that lives in a boot sector",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: A language model that lives in a boot sector"
+      ],
+      "url": "https://github.com/kerlenton/bootgpt"
+    },
+    {
+      "term": "i rebuilt my old canvas 3d library as a small webgl 2 library",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: I rebuilt my old canvas 3D library as a small WebGL 2 library"
+      ],
+      "url": "https://kevs3d.co.uk/phoria2/"
+    },
+    {
+      "term": "nes contra (1987) port (asm –> c and then c –> webassembly)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)"
+      ],
+      "url": "https://epoyraz.github.io/nes-contra-us/"
+    },
+    {
+      "term": "a usb-c lte modem that gives my computer a phone line",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: A USB-C LTE modem that gives my computer a phone line"
+      ],
+      "url": "https://github.com/Koppar-AI/koppar-lte-modem"
+    },
+    {
+      "term": "bbrouter",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "examples": [
+        "Show HN: BBRouter"
+      ],
+      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1"
+    },
+    {
+      "term": "particle-1",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "examples": [
+        "OpenRouter: Particle-1"
+      ],
+      "url": "https://openrouter.ai/particle-ai/particle-1"
+    },
+    {
+      "term": "gpt-6.1 terra pro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "examples": [
+        "OpenRouter: GPT-6.1 Terra Pro"
+      ],
+      "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro"
+    },
+    {
+      "term": "gpt-6.1 terra pro (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "examples": [
+        "OpenRouter: GPT-6.1 Terra Pro (batch)"
+      ],
+      "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro:batch"
+    },
+    {
+      "term": "gpt-6.1 terra",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "examples": [
+        "OpenRouter: GPT-6.1 Terra"
+      ],
+      "url": "https://openrouter.ai/openai/gpt-6.1-terra"
+    },
+    {
+      "term": "gpt-6.1 terra (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "examples": [
+        "OpenRouter: GPT-6.1 Terra (batch)"
+      ],
+      "url": "https://openrouter.ai/openai/gpt-6.1-terra:batch"
+    },
+    {
+      "term": "corvid",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Corvid"
+      ],
+      "url": "https://civitai.com/models/3032787"
+    },
+    {
+      "term": "singularity-v2-x-10eros-max",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Singularity-V2-x-10Eros-Max"
+      ],
+      "url": "https://civitai.com/models/3019421"
+    },
+    {
+      "term": "scottfalco mii gunner",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Scottfalco Mii gunner"
+      ],
+      "url": "https://civitai.com/models/3032436"
+    },
+    {
+      "term": "krea2 bbox turbo",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Krea2 BBOX Turbo"
+      ],
+      "url": "https://civitai.com/models/2963634"
+    },
+    {
+      "term": "asian fusion by latentmaster - krea2",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Asian Fusion by latentmaster - Krea2"
+      ],
+      "url": "https://civitai.com/models/3032070"
+    },
+    {
+      "term": "stormy night moss turbo",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Civitai 新上架"
+      ],
+      "examples": [
+        "Civitai: Stormy Night Moss Turbo"
+      ],
+      "url": "https://civitai.com/models/3031660"
+    }
+  ],
+  "sources": [
+    {
+      "id": "hf",
+      "label": "Hugging Face 热门",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "breakout",
+      "label": "GitHub 新项目",
+      "status": "baseline",
+      "count": 15,
+      "message": ""
+    },
+    {
+      "id": "sitemap:glama",
+      "label": "网站目录 · glama",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:mcp.so",
+      "label": "网站目录 · mcp.so",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:lobehub-mcp",
+      "label": "网站目录 · lobehub-mcp",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:lobehub-skills",
+      "label": "网站目录 · lobehub-skills",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:toolify",
+      "label": "网站目录 · toolify",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:aixploria",
+      "label": "网站目录 · aixploria",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:ai-bot.cn",
+      "label": "网站目录 · ai-bot.cn",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:opentools",
+      "label": "网站目录 · opentools",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:dang",
+      "label": "网站目录 · dang",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:clipfly",
+      "label": "网站目录 · clipfly",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:aitoptools",
+      "label": "网站目录 · aitoptools",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "sitemap:futurepedia",
+      "label": "网站目录 · futurepedia",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "feed:producthunt",
+      "label": "Product Hunt",
+      "status": "baseline",
+      "count": 5,
+      "message": ""
+    },
+    {
+      "id": "feed:hn",
+      "label": "Show HN",
+      "status": "baseline",
+      "count": 8,
+      "message": ""
+    },
+    {
+      "id": "feed:openrouter",
+      "label": "OpenRouter",
+      "status": "baseline",
+      "count": 5,
+      "message": ""
+    },
+    {
+      "id": "feed:civitai",
+      "label": "Civitai",
+      "status": "baseline",
+      "count": 10,
+      "message": ""
+    },
+    {
+      "id": "feed:appstore",
+      "label": "App Store",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    },
+    {
+      "id": "feed:awesome",
+      "label": "GitHub 精选列表",
+      "status": "baseline",
+      "count": 0,
+      "message": ""
+    }
+  ],
+  "mode": "free",
+  "version": 1
+}
