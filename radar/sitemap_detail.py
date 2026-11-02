@@ -124,7 +124,10 @@ def collect(cfg, state: Path, fetch):
         try:
             time.sleep(max(float(entry.get('pause', sitemaps.DEFAULT_PAUSE)), 0))
             shards, root_type = _shards(index, entry, fetch)
-            version = hashlib.sha256(json.dumps([index, entry.get('shards'), bool(entry.get('strip_locale'))], ensure_ascii=False).encode()).hexdigest()
+            version_fields = [index, entry.get('shards'), bool(entry.get('strip_locale'))]
+            if entry.get('monitor_id'):
+                version_fields.append(entry['monitor_id'])
+            version = hashlib.sha256(json.dumps(version_fields, ensure_ascii=False).encode()).hexdigest()
             previous_version = source_versions.get(site)
             changed = previous_version is not None and previous_version != version
             # The old collector treated an index without a shard selector as a list

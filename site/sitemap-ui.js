@@ -21,7 +21,7 @@
       const u = safeUrl(r.url), sitemap = safeUrl(r.sitemap);
       const trend = date => 'https://trends.google.com/trends/explore?date='+encode(date)+'&q='+encode(term);
       const search = 'https://www.google.com/search?q='+encode(term);
-      return '<tr><td><span class="term">'+esc(term || '无法从网址提取')+'</span><span class="subterm">未经需求验证</span></td><td>'+esc(r.site)+'<span class="subterm">'+esc(fmt(r.first_seen))+'</span>'+(sitemap?external(sitemap,'内容清单'):'')+'</td><td class="page-url">'+(u?external(u,u):'链接不可用')+'</td><td><div class="candidate-links">'+(term?[external(trend('now 7-d'),'趋势 7 天'),external(trend('today 1-m'),'30 天'),external(trend('today 3-m'),'90 天'),external(search,'Google 搜索')].join(''):'请打开原始网址人工提取')+'</div></td></tr>';
+      return '<tr><td><span class="term">'+esc(term || '无法从网址提取')+'</span><span class="subterm">未经需求验证</span></td><td>'+esc(r.site)+'<span class="subterm">首次发现：'+esc(fmt(r.first_seen))+'</span>'+(r.lastmod?'<span class="subterm">网站标注更新：'+esc(r.lastmod)+'</span>':'')+(sitemap?external(sitemap,'内容清单'):'')+'</td><td class="page-url">'+(u?external(u,u):'链接不可用')+'</td><td><div class="candidate-links">'+(term?[external(trend('now 7-d'),'趋势 7 天'),external(trend('today 1-m'),'30 天'),external(trend('today 3-m'),'90 天'),external(search,'Google 搜索')].join(''):'请打开原始网址人工提取')+'</div></td></tr>';
     }).join('') : '<tr><td colspan="4" class="empty">'+(data.version >= 2 ? '目前没有符合条件的新增网址。新监控的网站需先建立对照，等下次采集才能判断新增。' : '新版采集尚未发布，请等首次更新。')+'</td></tr>';
     byId('pageFoot').textContent = '显示 '+Math.min(filtered.length,shown)+' / '+filtered.length+' 条 · 首次发现时间不等于网页发布时间 · 候选词和搜索需求均需人工验证'+(data.sitemap_truncated?' · 记录较多，仅保留最近 5,000 条':'');
     byId('morePages').hidden = filtered.length <= shown;
@@ -88,7 +88,8 @@
     if(!/^[a-zA-Z0-9][a-zA-Z0-9._-]{0,59}$/.test(id))throw Error('请填写正确的同行名称，只能使用英文字母、数字、点、短横线和下划线。');
     const url=validAddress(address);
     if(pattern.length>200)throw Error('筛选规则过长，请控制在 200 字以内。');
-    await save(sites=>{if(Object.hasOwn(sites,id))throw Error('同行名称已经存在，请换一个名称。');sites[id]={index:url,pause:3,...(pattern?{shards:pattern}:{})};},'添加同行监控');
+    const monitorId=crypto.randomUUID();
+    await save(sites=>{if(Object.hasOwn(sites,id))throw Error('同行名称已经存在，请换一个名称。');sites[id]={index:url,pause:3,monitor_id:monitorId,...(pattern?{shards:pattern}:{})};},'添加同行监控');
     byId('newSiteName').value='';byId('newSiteUrl').value='';byId('newSitePattern').value='';
   }catch(e){setStatus(e.message);}};
   if(data)render();
