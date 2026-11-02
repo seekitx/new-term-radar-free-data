@@ -14,7 +14,7 @@ from pathlib import Path
 # Paid integrations must not inherit any credentials or enable the model judge.
 for name in ('AISA_API_KEY','GOANYAPI_API_KEY','TRUSTMRR_API_KEY','RESEND_API_KEY'):
     os.environ.pop(name, None)
-from radar import config, sources, breakout, sitemaps, feeds, report
+from radar import config, sources, breakout, sitemaps, sitemap_detail, feeds, report
 
 ROOT = Path(__file__).resolve().parent
 os.chdir(ROOT)
@@ -66,7 +66,7 @@ def collect(fn):
 blocks = {
     'hf': collect(lambda: sources.hf_new(cfg, state)),
     'breakout': collect(lambda: breakout.breakouts(cfg, state)),
-    'sitemap': collect(lambda: sitemaps.diff(cfg, state)),
+    'sitemap': collect(lambda: sitemap_detail.collect(cfg, state, checked_fetch)),
     'feed': collect(lambda: feeds.feeds(cfg, state)),
 }
 leads, judge = report.leads(cfg, blocks)
@@ -94,8 +94,8 @@ for key, label in [('hf','Hugging Face 热门'),('breakout','GitHub 新项目')]
 siteblock = blocks['sitemap']
 for name in cfg['sitemaps']:
     item = siteblock.get('sites',{}).get(name,{})
-    statuses.append({'id':'sitemap:'+name,'label':'网站目录 · '+name,'status':'error' if item.get('error') or siteblock.get('error') else ('baseline' if item.get('first_run') else 'ok'),
-                     'count':item.get('new',0),'message':str(item.get('error') or siteblock.get('error') or '')[:150]})
+    statuses.append({'id':'sitemap:'+name,'label':'网站目录 · '+name,'status':'disabled' if item.get('skipped') else ('error' if item.get('error') or siteblock.get('error') else ('baseline' if item.get('first_run') else ('partial' if item.get('baseline_shards') else 'ok'))),
+                     'count':item.get('new',0),'message':str(item.get('error') or siteblock.get('error') or (f"其中 {item.get('baseline_shards')} 个内容清单首次建立对照。" if item.get('baseline_shards') and not item.get('first_run') else ''))[:150], 'shards':item.get('shards',0), 'baseline_shards':item.get('baseline_shards',0)})
 fb = blocks['feed']
 errors = fb.get('errors', [])
 labels={'producthunt':'Product Hunt','hn':'Show HN','openrouter':'OpenRouter','civitai':'Civitai','appstore':'App Store','awesome':'GitHub 精选列表'}
@@ -104,7 +104,11 @@ for name in cfg['feeds']['enabled']:
     statuses.append({'id':'feed:'+name,'label':labels.get(name,name),'status':'error' if error else ('baseline' if name in fb.get('first_run',[]) else 'ok'),
                      'count':len(fb.get('new',{}).get(name,[])),'message':str(error)[:150]})
 now = datetime.now(timezone.utc).isoformat()
-result = {'generated_at':now,'leads':rows,'sources':statuses,'mode':'free','version':1}
+result = {'generated_at':now,'leads':rows,'sources':statuses,'mode':'free','version':2,
+          'sitemap_pages':siteblock.get('pages', []), 'sitemap_new_count':siteblock.get('pages_new', 0),
+          'sitemap_history_days':siteblock.get('history_days', 30), 'sitemap_truncated':siteblock.get('truncated', False),
+          'competitors':[{'id':name,'index':site.get('index',''),'enabled':site.get('enabled',True),
+                          'shards':site.get('shards','')} for name,site in cfg['sitemaps'].items()]}
 out = ROOT / 'public' / 'latest.json'
 out.parent.mkdir(exist_ok=True)
 tmp = out.with_suffix('.tmp')
