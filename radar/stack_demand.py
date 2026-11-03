@@ -22,12 +22,12 @@ def candidate(title: str) -> str:
     """Conservatively clean the question title; this is not a search-volume claim."""
     text = re.sub(r"\s+", " ", html.unescape(title)).strip(" ?!.:;–—-")
     text = re.sub(
-        r"^(?:is there (?:a|an|any) |(?:looking|searching) for (?:a|an|any) |"
+        r"^(?:is there (?:a|an|any) |can (?:the |i |we )?|(?:looking|searching) for (?:a|an|any) |"
         r"(?:recommend|recommendation for|suggestions? for) (?:a|an|any)?\s*|"
         r"(?:how (?:can|do) (?:i|we)|how to)\s+)", "", text, flags=re.I,
     ).strip(" ?!.:;–—-")
     words = text.split()
-    return " ".join(words[:12]).strip(" ,;:–—-") if len(words) >= 2 else ""
+    return " ".join(words[:18]).strip(" ,;:–—-") if len(words) >= 2 else ""
 
 
 def _fetch(path: str, params: dict) -> dict:
