@@ -1,309 +1,32 @@
 {
-  "generated_at": "2026-11-03T06:32:18.422684+00:00",
+  "generated_at": "2026-11-03T09:50:59.271025+00:00",
   "leads": [
     {
-      "term": "openidea",
+      "term": "roblox game copier",
       "kinds": [
         "breakout"
       ],
       "signals": [
-        "GitHub 爆发 l0ng-ai/openidea ★5221(均 409/天,一天 +577)"
+        "GitHub 爆发 Bridgeyaprovide/roblox-game-copier ★502(均 502/天,一天 +0)"
       ],
       "examples": [
-        "l0ng-ai/openidea: The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: "
+        "Bridgeyaprovide/roblox-game-copier: Roblox Game Copier 2026: Pre-activated desktop edition with all features enabled for easy installation and use."
       ],
-      "url": "https://github.com/l0ng-ai/openidea"
+      "url": "https://github.com/Bridgeyaprovide/roblox-game-copier"
     },
     {
-      "term": "run",
-      "kinds": [
-        "breakout"
-      ],
-      "signals": [
-        "GitHub 爆发 BryceYuuu/RUN ★2011(均 420/天,一天 +576)"
-      ],
-      "examples": [
-        "BryceYuuu/RUN: RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）"
-      ],
-      "url": "https://github.com/BryceYuuu/RUN"
-    },
-    {
-      "term": "genpark personal",
+      "term": "per",
       "kinds": [
         "sitemap"
       ],
       "signals": [
-        "③ 竞品 104 处 (×69.9)"
+        "③ 竞品 5 处 (×4.9)"
       ],
       "examples": [],
       "url": ""
     },
     {
-      "term": "personal",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 106 处 (×39.7)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "cutaneous",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 16 处 (×15.7)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "ocular",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 12 处 (×11.6)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "cardiac",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 11 处 (×11.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "pulmonary",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 11 处 (×11.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "acoustic",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 10 处 (×9.7)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "cerebral",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 9 处 (×9.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "respiratory",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 8 处 (×8.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "reflex",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 8 处 (×7.5)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "closing",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 6 处 (×6.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "pulmonary dynamic",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 6 处 (×6.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "oculomotor",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 5 处 (×5.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "airway",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 5 处 (×5.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "somatosensory",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 5 处 (×5.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "velocity",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 5 处 (×4.8)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "photopic",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "photopic negative",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "cutaneous tactile",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "sensitivity",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "closing pressure",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "cardiac ventricular",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "renal",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×4.0)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "muscle",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×3.9)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "sequence",
-      "kinds": [
-        "sitemap"
-      ],
-      "signals": [
-        "③ 竞品 4 处 (×3.9)"
-      ],
-      "examples": [],
-      "url": ""
-    },
-    {
-      "term": "themelia: theme & widget",
+      "term": "sogni: ai image, video & music",
       "kinds": [
         "feed"
       ],
@@ -311,64 +34,12 @@
         "App Store 新上架"
       ],
       "examples": [
-        "App Store: Themelia: Theme & Widget"
+        "App Store: Sogni: AI Image, Video & Music"
       ],
-      "url": "https://apps.apple.com/us/app/themelia-theme-widget/id6467189759?uo=2"
+      "url": "https://apps.apple.com/us/app/sogni-ai-image-video-music/id6450021857?uo=2"
     },
     {
-      "term": "fff_moss-alba",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: FFF_MOSS-Alba"
-      ],
-      "url": "https://civitai.com/models/3034445"
-    },
-    {
-      "term": "moss cat tower",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: MOSS Cat Tower"
-      ],
-      "url": "https://civitai.com/models/3018379"
-    },
-    {
-      "term": "comanima flat",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: comanima flat"
-      ],
-      "url": "https://civitai.com/models/3034415"
-    },
-    {
-      "term": "model-ex",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: Model-EX"
-      ],
-      "url": "https://civitai.com/models/1412307"
-    },
-    {
-      "term": "revreel: ai car edits",
+      "term": "cardash: video player for cars",
       "kinds": [
         "feed"
       ],
@@ -376,51 +47,142 @@
         "App Store 新上架"
       ],
       "examples": [
-        "App Store: RevReel: AI Car Edits"
+        "App Store: CarDash: Video Player for Cars"
       ],
-      "url": "https://apps.apple.com/us/app/revreel-ai-car-edits/id6800568794?uo=2"
+      "url": "https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175?uo=2"
     },
     {
-      "term": "subvocal",
+      "term": "agentkit (by scalekit)",
       "kinds": [
         "feed"
       ],
       "signals": [
-        "Show HN 新上架"
+        "Product Hunt 新上架"
       ],
       "examples": [
-        "Show HN: Subvocal"
+        "Product Hunt: AgentKit (by Scalekit)"
       ],
-      "url": "https://news.ycombinator.com/item?id=50340088"
+      "url": "https://www.producthunt.com/products/scalekit"
     },
     {
-      "term": "warsaw in voxels",
+      "term": "synter canvas",
       "kinds": [
         "feed"
       ],
       "signals": [
-        "Show HN 新上架"
+        "Product Hunt 新上架"
       ],
       "examples": [
-        "Show HN: Warsaw in voxels"
+        "Product Hunt: Synter Canvas"
       ],
-      "url": "https://p.migdal.pl/warsaw-vibe-voxel/"
+      "url": "https://www.producthunt.com/products/synter-canvas"
     },
     {
-      "term": "hacker times, a new york times-inspired version of hacker news",
+      "term": "scrawl",
       "kinds": [
         "feed"
       ],
       "signals": [
-        "Show HN 新上架"
+        "Product Hunt 新上架"
       ],
       "examples": [
-        "Show HN: Hacker Times, a New York Times-inspired version of Hacker News"
+        "Product Hunt: Scrawl"
       ],
-      "url": "https://hackertimes.ca/"
+      "url": "https://www.producthunt.com/products/scrawl-2"
     },
     {
-      "term": "quality learing center",
+      "term": "lifeval",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: LifeVal"
+      ],
+      "url": "https://www.producthunt.com/products/openai"
+    },
+    {
+      "term": "brink",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Brink"
+      ],
+      "url": "https://www.producthunt.com/products/brink-2"
+    },
+    {
+      "term": "hookdeck inspect",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Hookdeck Inspect"
+      ],
+      "url": "https://www.producthunt.com/products/hookdeck"
+    },
+    {
+      "term": "teamily ai",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Teamily AI"
+      ],
+      "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network"
+    },
+    {
+      "term": "infino ai",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: Infino AI"
+      ],
+      "url": "https://www.producthunt.com/products/infino-ai"
+    },
+    {
+      "term": "nexupira",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: NEXUPIRA"
+      ],
+      "url": "https://www.producthunt.com/products/nexupira"
+    },
+    {
+      "term": "kwant",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "examples": [
+        "Product Hunt: kwant"
+      ],
+      "url": "https://www.producthunt.com/products/kwant"
+    },
+    {
+      "term": "kreavantis master_fp8",
       "kinds": [
         "feed"
       ],
@@ -428,77 +190,12 @@
         "Civitai 新上架"
       ],
       "examples": [
-        "Civitai: Quality Learing Center"
+        "Civitai: KREAVANTIS MASTER_FP8"
       ],
-      "url": "https://civitai.com/models/2294377"
+      "url": "https://civitai.com/models/3034679"
     },
     {
-      "term": "kodoraan",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: KodoraAN"
-      ],
-      "url": "https://civitai.com/models/2798955"
-    },
-    {
-      "term": "jessiestartup",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: jessiestartup"
-      ],
-      "url": "https://civitai.com/models/3028008"
-    },
-    {
-      "term": "fictional foundation moss turbo",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: Fictional Foundation Moss Turbo"
-      ],
-      "url": "https://civitai.com/models/3033505"
-    },
-    {
-      "term": "bb artistic fusion xl",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: BB Artistic Fusion XL"
-      ],
-      "url": "https://civitai.com/models/3033632"
-    },
-    {
-      "term": "unholy desire mix - dark serenity (anima-2b | anima-2.9b)",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "Civitai 新上架"
-      ],
-      "examples": [
-        "Civitai: Unholy Desire Mix - Dark Serenity (Anima-2B | Anima-2.9B)"
-      ],
-      "url": "https://civitai.com/models/2692236"
-    },
-    {
-      "term": "insta360",
+      "term": "sociallite-block reels&shorts",
       "kinds": [
         "feed"
       ],
@@ -506,48 +203,9 @@
         "App Store 新上架"
       ],
       "examples": [
-        "App Store: Insta360"
+        "App Store: SocialLite-Block Reels&Shorts"
       ],
-      "url": "https://apps.apple.com/us/app/insta360/id1491299654?uo=2"
-    },
-    {
-      "term": "koco widgets: app launcher",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Koco Widgets: App Launcher"
-      ],
-      "url": "https://apps.apple.com/us/app/koco-widgets-app-launcher/id6702013570?uo=2"
-    },
-    {
-      "term": "gallerie wallpapers",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Gallerie Wallpapers"
-      ],
-      "url": "https://apps.apple.com/us/app/gallerie-wallpapers/id6752269317?uo=2"
-    },
-    {
-      "term": "hushed: us second phone number",
-      "kinds": [
-        "feed"
-      ],
-      "signals": [
-        "App Store 新上架"
-      ],
-      "examples": [
-        "App Store: Hushed: US Second Phone Number"
-      ],
-      "url": "https://apps.apple.com/us/app/hushed-us-second-phone-number/id600520752?uo=2"
+      "url": "https://apps.apple.com/us/app/sociallite-block-reels-shorts/id6757661674?uo=2"
     }
   ],
   "sources": [
@@ -562,14 +220,14 @@
       "id": "breakout",
       "label": "GitHub 新项目",
       "status": "ok",
-      "count": 2,
+      "count": 1,
       "message": ""
     },
     {
       "id": "sitemap:glama",
       "label": "网站目录 · glama",
       "status": "ok",
-      "count": 893,
+      "count": 155,
       "message": "",
       "shards": 17,
       "baseline_shards": 0
@@ -578,7 +236,7 @@
       "id": "sitemap:mcp.so",
       "label": "网站目录 · mcp.so",
       "status": "ok",
-      "count": 11,
+      "count": 7,
       "message": "",
       "shards": 24,
       "baseline_shards": 0
@@ -623,7 +281,7 @@
       "id": "sitemap:ai-bot.cn",
       "label": "网站目录 · ai-bot.cn",
       "status": "ok",
-      "count": 6,
+      "count": 2,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -641,7 +299,7 @@
       "id": "sitemap:dang",
       "label": "网站目录 · dang",
       "status": "ok",
-      "count": 4,
+      "count": 0,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -668,7 +326,7 @@
       "id": "sitemap:futurepedia",
       "label": "网站目录 · futurepedia",
       "status": "ok",
-      "count": 4,
+      "count": 1,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -686,7 +344,7 @@
       "id": "sitemap:poki-games",
       "label": "网站目录 · poki-games",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "message": "",
       "shards": 1,
       "baseline_shards": 0
@@ -695,14 +353,14 @@
       "id": "feed:producthunt",
       "label": "Product Hunt",
       "status": "ok",
-      "count": 0,
+      "count": 10,
       "message": ""
     },
     {
       "id": "feed:hn",
       "label": "Show HN",
       "status": "ok",
-      "count": 3,
+      "count": 0,
       "message": ""
     },
     {
@@ -716,14 +374,14 @@
       "id": "feed:civitai",
       "label": "Civitai",
       "status": "ok",
-      "count": 10,
+      "count": 1,
       "message": ""
     },
     {
       "id": "feed:appstore",
       "label": "App Store",
       "status": "ok",
-      "count": 6,
+      "count": 3,
       "message": ""
     },
     {
@@ -732,11 +390,1678 @@
       "status": "ok",
       "count": 0,
       "message": ""
+    },
+    {
+      "id": "stackexchange",
+      "label": "Stack Exchange 用户需求",
+      "status": "ok",
+      "count": 1,
+      "message": ""
     }
   ],
   "mode": "free",
   "version": 2,
   "sitemap_pages": [
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.chartbrew.api/chartbrew-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.chartbrew.api/chartbrew-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "chartbrew mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T06:59:53.167Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.hirelabs/hirelabs",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.hirelabs/hirelabs",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "hirelabs",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:04.629Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.adityaarsharma.audit/sitewalk",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.adityaarsharma.audit/sitewalk",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "sitewalk",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:01.831Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/app.thatsaid/thatsaid",
+      "canonical_url": "https://glama.ai/mcp/connectors/app.thatsaid/thatsaid",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "thatsaid",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:01.337Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/am.yerevanestate/yerevan-apartments",
+      "canonical_url": "https://glama.ai/mcp/connectors/am.yerevanestate/yerevan-apartments",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "yerevan apartments",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:01.350Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/ai.aibotoffice/bot-office",
+      "canonical_url": "https://glama.ai/mcp/connectors/ai.aibotoffice/bot-office",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "bot office",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:01.648Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.acornharness/acorn",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.acornharness/acorn",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "acorn",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:01.757Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.ainoova/tools",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.ainoova/tools",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "tools",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:13.652Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.bilyeyemek/bilye",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.bilyeyemek/bilye",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "bilye",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:01.933Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.chartbrew/chartbrew",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.chartbrew/chartbrew",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "chartbrew",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:14.589Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.decisionscalc/calculators",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.decisionscalc/calculators",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "calculators",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.561Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.payfresco/payment-planner",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.payfresco/payment-planner",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "payment planner",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:02.463Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.saveditapp/savedit",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.saveditapp/savedit",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "savedit",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:14.038Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.retryhub/retryhub",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.retryhub/retryhub",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "retryhub",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:02.535Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.revrecoup/receivables",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.revrecoup/receivables",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "receivables",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:14.321Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/dev.pages.chatgpt-search-visibility/chatgpt-search-visibility",
+      "canonical_url": "https://glama.ai/mcp/connectors/dev.pages.chatgpt-search-visibility/chatgpt-search-visibility",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "chatgpt search visibility",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:14.265Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/dev.workers.moneytools.x402-pay-precheck/pay-precheck",
+      "canonical_url": "https://glama.ai/mcp/connectors/dev.workers.moneytools.x402-pay-precheck/pay-precheck",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "pay precheck",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:04.538Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.babo072/sazuai",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.babo072/sazuai",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "sazuai",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:03.528Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.khondokartowsif171/fahi-videos-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.khondokartowsif171/fahi-videos-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "fahi videos mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:03.935Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/pl.hookownia/hookownia",
+      "canonical_url": "https://glama.ai/mcp/connectors/pl.hookownia/hookownia",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "hookownia",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:14.995Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/org.indiadigital/indiadigital",
+      "canonical_url": "https://glama.ai/mcp/connectors/org.indiadigital/indiadigital",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "indiadigital",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:04.731Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/kr.co.knockwatch/coin-check",
+      "canonical_url": "https://glama.ai/mcp/connectors/kr.co.knockwatch/coin-check",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "coin check",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:15.669Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/uk.homedex/homedex",
+      "canonical_url": "https://glama.ai/mcp/connectors/uk.homedex/homedex",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "homedex",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:00:04.838Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.onrender.agent-micro-api/token-safety-and-liquidity-intelligence-node",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.onrender.agent-micro-api/token-safety-and-liquidity-intelligence-node",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "token safety and liquidity intelligence node",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:10:10.033Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.nanukamachi/nanukamachi-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.nanukamachi/nanukamachi-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "nanukamachi mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:08.689Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/ai.agilex.service/docs",
+      "canonical_url": "https://glama.ai/mcp/connectors/ai.agilex.service/docs",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "docs",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:02.040Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/app.qrilo.gift/giftquest",
+      "canonical_url": "https://glama.ai/mcp/connectors/app.qrilo.gift/giftquest",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "giftquest",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:01.435Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/ai.contextgate/mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/ai.contextgate/mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:14.828Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.autosecurelogin/aya-scam-check",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.autosecurelogin/aya-scam-check",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "aya scam check",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.041Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.autosecurelogin/bizmanager",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.autosecurelogin/bizmanager",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "bizmanager",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:14.539Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.autosecurelogin/colorado-complaint-access",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.autosecurelogin/colorado-complaint-access",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "colorado complaint access",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.131Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.autosecurelogin/ai-hub",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.autosecurelogin/ai-hub",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "ai hub",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:14.828Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.autosecurelogin/doctor-search",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.autosecurelogin/doctor-search",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "doctor search",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.427Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.autosecurelogin/homelesshelper",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.autosecurelogin/homelesshelper",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "homelesshelper",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.532Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.autosecurelogin/policy-lens",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.autosecurelogin/policy-lens",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "policy lens",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.530Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.hosait/hosait",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.hosait/hosait",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "hosait",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:15.048Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.lanerouter/lanerouter",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.lanerouter/lanerouter",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "lanerouter",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.841Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.jiaheniao/tibetan-calendar",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.jiaheniao/tibetan-calendar",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "tibetan calendar",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:02.847Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.nova-kommo/kommo",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.nova-kommo/kommo",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "kommo",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:15.551Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.sheetsfinance/sheetsfinance",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.sheetsfinance/sheetsfinance",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "sheetsfinance",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:15.638Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.usephysics/physics-calculators",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.usephysics/physics-calculators",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "physics calculators",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:03.137Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.virtnumber/virtnumber",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.virtnumber/virtnumber",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "virtnumber",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:03.731Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/dev.pages.estanoir-bots/trips",
+      "canonical_url": "https://glama.ai/mcp/connectors/dev.pages.estanoir-bots/trips",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "trips",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:03.332Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/dev.workers.microtools-x402.x402-sec-edgar/sec-edgar",
+      "canonical_url": "https://glama.ai/mcp/connectors/dev.workers.microtools-x402.x402-sec-edgar/sec-edgar",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "sec edgar",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:03.430Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.NBrangerF/kebiao",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.NBrangerF/kebiao",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "kebiao",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:03.733Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.hks409/nanukamachi",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.hks409/nanukamachi",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "nanukamachi",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:04.529Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.jaypark8780/baedang",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.jaypark8780/baedang",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "baedang",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:05.082Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.johnisanerd/yandex-per-result",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.johnisanerd/yandex-per-result",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "yandex per result",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:15.454Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/cpi-inflation-calculator-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/cpi-inflation-calculator-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "cpi inflation calculator mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:05.631Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/sat-score-percentiles-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/sat-score-percentiles-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "sat score percentiles mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:06.331Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/silver-price-per-gram-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/silver-price-per-gram-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "silver price per gram mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:06.330Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/river-level-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/river-level-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "river level mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:06.331Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/irs-mileage-rate-per-diem-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/irs-mileage-rate-per-diem-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "irs mileage rate per diem mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:06.343Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.x2q/elpriser-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.x2q/elpriser-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "elpriser mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:06.456Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.plannie/plannie",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.plannie/plannie",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "plannie",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:16.043Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.okkmax/okk-max-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.okkmax/okk-max-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "okk max mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:36:18.800Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/ai.legitreviews/legitreviews",
+      "canonical_url": "https://glama.ai/mcp/connectors/ai.legitreviews/legitreviews",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "legitreviews",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:02.331Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/as.legalai/legalai-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/as.legalai/legalai-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "legalai mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:02.344Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.fatetell/mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.fatetell/mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:02.455Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.centeraivision/gpu-cloud",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.centeraivision/gpu-cloud",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "gpu cloud",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:02.629Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.freeaiforthat/free-ai-for-that",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.freeaiforthat/free-ai-for-that",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "free ai for that",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:02.928Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.mazzagrp/mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.mazzagrp/mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:03.549Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.timioapp/agenda",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.timioapp/agenda",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "agenda",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:03.828Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/dev.workers.microtools-x402.x402-package-advisories/package-advisories",
+      "canonical_url": "https://glama.ai/mcp/connectors/dev.workers.microtools-x402.x402-package-advisories/package-advisories",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "package advisories",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:04.540Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.APIHubsRU/apihubs",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.APIHubsRU/apihubs",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "apihubs",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:05.128Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.dytredline/vulkill-security",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.dytredline/vulkill-security",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "vulkill security",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:07.935Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.keenthemes/reui",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.keenthemes/reui",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "reui",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:08.830Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/vegetable-yield-percentage-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/vegetable-yield-percentage-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "vegetable yield percentage mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:09.833Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/raw-to-cooked-weight-mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.github.theluckystrike/raw-to-cooked-weight-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "raw to cooked weight mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:09.839Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/io.htmlkin/htmlkin",
+      "canonical_url": "https://glama.ai/mcp/connectors/io.htmlkin/htmlkin",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "htmlkin",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:10.860Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/me.beep/beep",
+      "canonical_url": "https://glama.ai/mcp/connectors/me.beep/beep",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "beep",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:11.243Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/uk.renewably/mcp",
+      "canonical_url": "https://glama.ai/mcp/connectors/uk.renewably/mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:00:11.681Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/connectors/com.openhumandesign/hd",
+      "canonical_url": "https://glama.ai/mcp/connectors/com.openhumandesign/hd",
+      "sitemap": "https://glama.ai/sitemaps/mcp-remote-servers/4.xml",
+      "candidate": "",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:10:07.720Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Hamza-Lakehayli/memory-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/Hamza-Lakehayli/memory-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/9.xml",
+      "candidate": "memory mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T06:30:21.554Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/overwa1ch/skill-library-public",
+      "canonical_url": "https://glama.ai/mcp/servers/overwa1ch/skill-library-public",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "skill library public",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:25:11.361Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Sanjay-dev22/terminal-fleet-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/Sanjay-dev22/terminal-fleet-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "terminal fleet mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:15:26.248Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/diysimon/genui-for-echarts",
+      "canonical_url": "https://glama.ai/mcp/servers/diysimon/genui-for-echarts",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "genui for echarts",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:15:23.435Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/foxing-engine/foxing",
+      "canonical_url": "https://glama.ai/mcp/servers/foxing-engine/foxing",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "foxing",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:18.457Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/grootynix/sentron",
+      "canonical_url": "https://glama.ai/mcp/servers/grootynix/sentron",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "sentron",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T06:31:51.282Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/jmajerus/holdings-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/jmajerus/holdings-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "holdings mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T06:31:06.756Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/RRYZ09/p-touch-cube-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/RRYZ09/p-touch-cube-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "p touch cube mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T06:31:39.539Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/agnostify/context-pill",
+      "canonical_url": "https://glama.ai/mcp/servers/agnostify/context-pill",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "context pill",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T06:56:09.301Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/NexA-LLC/law-graph",
+      "canonical_url": "https://glama.ai/mcp/servers/NexA-LLC/law-graph",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "law graph",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:20:22.459Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/shopfox-ai/shopfox-shopping-mcp-plugin",
+      "canonical_url": "https://glama.ai/mcp/servers/shopfox-ai/shopfox-shopping-mcp-plugin",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "shopfox shopping mcp plugin",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:21:53.058Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/gasrescue/gasrescue-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/gasrescue/gasrescue-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "gasrescue mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:22:11.617Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/mayank1307/gitferry",
+      "canonical_url": "https://glama.ai/mcp/servers/mayank1307/gitferry",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "gitferry",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:21:39.743Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/sepehr071/rasmio-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/sepehr071/rasmio-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "rasmio mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:21:39.682Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/nolindnaidoo/ips-le",
+      "canonical_url": "https://glama.ai/mcp/servers/nolindnaidoo/ips-le",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "ips le",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:21:49.455Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/leethoneid/figma-spec-compressor",
+      "canonical_url": "https://glama.ai/mcp/servers/leethoneid/figma-spec-compressor",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "figma spec compressor",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:25:54.196Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/ZengZichao/gcType-MCP",
+      "canonical_url": "https://glama.ai/mcp/servers/ZengZichao/gcType-MCP",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "gc Type MCP",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:26.970Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/ventos312/chrome-fast-browser-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/ventos312/chrome-fast-browser-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "chrome fast browser mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:36.545Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Zzatiz/gepetto-browser",
+      "canonical_url": "https://glama.ai/mcp/servers/Zzatiz/gepetto-browser",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "gepetto browser",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:53.519Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/zzhzkx/TwoSCI",
+      "canonical_url": "https://glama.ai/mcp/servers/zzhzkx/TwoSCI",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "Two SCI",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:31:02.193Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/helloCaijiaqi/memory-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/helloCaijiaqi/memory-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "memory mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:21.252Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/helloCaijiaqi/rolecard-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/helloCaijiaqi/rolecard-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "rolecard mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:27.466Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Jeff-Kazzee/ps5-agent-remote",
+      "canonical_url": "https://glama.ai/mcp/servers/Jeff-Kazzee/ps5-agent-remote",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "ps5 agent remote",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:43.432Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/zurvaaziz56/ai-infra-filings-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/zurvaaziz56/ai-infra-filings-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "ai infra filings mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:31:54.057Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/ZengZichao/NMDC-MCP",
+      "canonical_url": "https://glama.ai/mcp/servers/ZengZichao/NMDC-MCP",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "NMDC MCP",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:43.237Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/stanczykwyatt/brainhound",
+      "canonical_url": "https://glama.ai/mcp/servers/stanczykwyatt/brainhound",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "brainhound",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:30:35.116Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/narcisbodea/smstunnel-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/narcisbodea/smstunnel-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "smstunnel mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:31:12.432Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/AndreasHeine/cli-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/AndreasHeine/cli-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "cli mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:35:37.589Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/rtostudioco/universal-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/rtostudioco/universal-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "universal mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:36:10.536Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/vanisoul/mattermost-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/vanisoul/mattermost-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "mattermost mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:35:19.845Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Johnnnmai/ai-interview-questions-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/Johnnnmai/ai-interview-questions-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "ai interview questions mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:35:38.004Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/WaziXuan/droidpilot",
+      "canonical_url": "https://glama.ai/mcp/servers/WaziXuan/droidpilot",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "droidpilot",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:35:21.130Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/skyer-now/carlos-flow-cindy",
+      "canonical_url": "https://glama.ai/mcp/servers/skyer-now/carlos-flow-cindy",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "carlos flow cindy",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:35:39.541Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/skyer-now/carlos-flow-opencode",
+      "canonical_url": "https://glama.ai/mcp/servers/skyer-now/carlos-flow-opencode",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "carlos flow opencode",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:35:40.913Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Diraw/Research-Compute-Fabric",
+      "canonical_url": "https://glama.ai/mcp/servers/Diraw/Research-Compute-Fabric",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "Research Compute Fabric",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:45:51.317Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/falkue/fundus-app",
+      "canonical_url": "https://glama.ai/mcp/servers/falkue/fundus-app",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "fundus app",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T07:55:53.623Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/gotoai/edinet-util-mcp-server",
+      "canonical_url": "https://glama.ai/mcp/servers/gotoai/edinet-util-mcp-server",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "edinet util mcp server",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:00:23.380Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/bonnypro/TwinCAT3-MCP",
+      "canonical_url": "https://glama.ai/mcp/servers/bonnypro/TwinCAT3-MCP",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "Twin CAT3 MCP",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:01:06.999Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/m16khb-org/issueops",
+      "canonical_url": "https://glama.ai/mcp/servers/m16khb-org/issueops",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "issueops",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:16:13.158Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Admin3007/decisionscalc-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/Admin3007/decisionscalc-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "decisionscalc mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:21:40.824Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/theluckystrike/cpi-inflation-calculator-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/theluckystrike/cpi-inflation-calculator-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "cpi inflation calculator mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:21:29.487Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/theluckystrike/irs-mileage-rate-per-diem-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/theluckystrike/irs-mileage-rate-per-diem-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "irs mileage rate per diem mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:21:30.684Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/theluckystrike/sat-score-percentiles-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/theluckystrike/sat-score-percentiles-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "sat score percentiles mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:21:29.638Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/theluckystrike/river-level-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/theluckystrike/river-level-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "river level mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:21:36.426Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/theluckystrike/silver-price-per-gram-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/theluckystrike/silver-price-per-gram-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "silver price per gram mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:21:46.902Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/maralski/drama-studio",
+      "canonical_url": "https://glama.ai/mcp/servers/maralski/drama-studio",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "drama studio",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:25:53.488Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/leethoneid/mcp-dynamic-router",
+      "canonical_url": "https://glama.ai/mcp/servers/leethoneid/mcp-dynamic-router",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "mcp dynamic router",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:31:15.817Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/europesip/hcl-dx-iq-europesip-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/europesip/hcl-dx-iq-europesip-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "hcl dx iq europesip mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:55.012Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/webvoguetech/dropperch-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/webvoguetech/dropperch-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "dropperch mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:36.129Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Johnnnmai/interview-prep-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/Johnnnmai/interview-prep-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "interview prep mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:49.824Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/slopmaxxer/hydra-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/slopmaxxer/hydra-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "hydra mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:47.231Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/slopmaxxer/therapie-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/slopmaxxer/therapie-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "therapie mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:41.754Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/slopmaxxer/arbeitsagentur-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/slopmaxxer/arbeitsagentur-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "arbeitsagentur mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:46.346Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/ALiwoto/colab-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/ALiwoto/colab-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "colab mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:34.329Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/x1nfinity/gitlab-mcp-legacy",
+      "canonical_url": "https://glama.ai/mcp/servers/x1nfinity/gitlab-mcp-legacy",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "gitlab mcp legacy",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:30:57.399Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/rpallavisharma/seleniummcpserver",
+      "canonical_url": "https://glama.ai/mcp/servers/rpallavisharma/seleniummcpserver",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "seleniummcpserver",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:48.059Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/popuchoco/qnap-nas-cli",
+      "canonical_url": "https://glama.ai/mcp/servers/popuchoco/qnap-nas-cli",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "qnap nas cli",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:27.221Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/hs85-newbie/korea-finance-factcheck",
+      "canonical_url": "https://glama.ai/mcp/servers/hs85-newbie/korea-finance-factcheck",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "korea finance factcheck",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:39.613Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/frank-zengyuntian/touai-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/frank-zengyuntian/touai-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "touai mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:38.982Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/BenniAlencar/agent-deep-research",
+      "canonical_url": "https://glama.ai/mcp/servers/BenniAlencar/agent-deep-research",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "agent deep research",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:43.457Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/oxipy/ctxrank",
+      "canonical_url": "https://glama.ai/mcp/servers/oxipy/ctxrank",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "ctxrank",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:24.280Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/azagoruyko/maya_mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/azagoruyko/maya_mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "maya mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:55.569Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/rogerix4/abap-adt-mcp-gateway",
+      "canonical_url": "https://glama.ai/mcp/servers/rogerix4/abap-adt-mcp-gateway",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "abap adt mcp gateway",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:35:46.569Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/vickyymosafan/mcp_figcraft",
+      "canonical_url": "https://glama.ai/mcp/servers/vickyymosafan/mcp_figcraft",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "mcp figcraft",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:36:06.857Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Ryan-Carloso/post-engineer",
+      "canonical_url": "https://glama.ai/mcp/servers/Ryan-Carloso/post-engineer",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "post engineer",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:05:48.498Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Cookiebreed/card-recognition-api",
+      "canonical_url": "https://glama.ai/mcp/servers/Cookiebreed/card-recognition-api",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "card recognition api",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:06:30.954Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/dytredline/VulKill",
+      "canonical_url": "https://glama.ai/mcp/servers/dytredline/VulKill",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "Vul Kill",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:13:30.224Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/RussGuo/fatetell-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/RussGuo/fatetell-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "fatetell mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:21:33.277Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/phongndo/alive2-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/phongndo/alive2-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "alive2 mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:21:26.402Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/9mp96ygnbk-alt/factlot",
+      "canonical_url": "https://glama.ai/mcp/servers/9mp96ygnbk-alt/factlot",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "factlot",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:21:36.732Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/theluckystrike/raw-to-cooked-weight-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/theluckystrike/raw-to-cooked-weight-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "raw to cooked weight mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:21:24.754Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/theluckystrike/vegetable-yield-percentage-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/theluckystrike/vegetable-yield-percentage-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "vegetable yield percentage mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:21:34.640Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/shlim-t/labview-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/shlim-t/labview-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "labview mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:25:31.769Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/BenniAlencar/agent-code-sandbox",
+      "canonical_url": "https://glama.ai/mcp/servers/BenniAlencar/agent-code-sandbox",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "agent code sandbox",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:25:40.586Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/Badroel07/elearningitg-mcp-server",
+      "canonical_url": "https://glama.ai/mcp/servers/Badroel07/elearningitg-mcp-server",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "elearningitg mcp server",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:25:46.376Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/jenawant-rgb/dsh-sslmanager",
+      "canonical_url": "https://glama.ai/mcp/servers/jenawant-rgb/dsh-sslmanager",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "dsh sslmanager",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:25:41.786Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/rtostudioco/universal-rag",
+      "canonical_url": "https://glama.ai/mcp/servers/rtostudioco/universal-rag",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "universal rag",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:31:02.938Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/alinejad-dev/agent-action-gateway",
+      "canonical_url": "https://glama.ai/mcp/servers/alinejad-dev/agent-action-gateway",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "agent action gateway",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:30:57.343Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/roelven/roels-factorio-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/roelven/roels-factorio-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "roels factorio mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:30:54.058Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/waychan23/rdm",
+      "canonical_url": "https://glama.ai/mcp/servers/waychan23/rdm",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "rdm",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:30:51.245Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/giraygokirmak/finviz-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/giraygokirmak/finviz-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "finviz mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:30:40.141Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "glama",
+      "url": "https://glama.ai/mcp/servers/ateliersavant/multimail-mcp",
+      "canonical_url": "https://glama.ai/mcp/servers/ateliersavant/multimail-mcp",
+      "sitemap": "https://glama.ai/sitemaps/mcp-servers/12.xml",
+      "candidate": "multimail mcp",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:31:22.483Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/sheetsfinance",
+      "canonical_url": "https://mcp.so/servers/sheetsfinance",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=12",
+      "candidate": "sheetsfinance",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T09:05:42.431Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/snapex-pay-259399",
+      "canonical_url": "https://mcp.so/servers/snapex-pay-259399",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=12",
+      "candidate": "snapex pay",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:24:53.181Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/demo-shopify-storefront-mcp-server",
+      "canonical_url": "https://mcp.so/servers/demo-shopify-storefront-mcp-server",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=15",
+      "candidate": "demo shopify storefront mcp server",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-10-16T09:24:18.034Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/agent-margin-router-8f2eb3",
+      "canonical_url": "https://mcp.so/servers/agent-margin-router-8f2eb3",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=15",
+      "candidate": "agent margin router 8f2eb3",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-10-16T15:15:30.843Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/tubepull",
+      "canonical_url": "https://mcp.so/servers/tubepull",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=16",
+      "candidate": "tubepull",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-10-16T14:17:17.502Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/mcp-ollama",
+      "canonical_url": "https://mcp.so/servers/mcp-ollama",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=19",
+      "candidate": "mcp ollama",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-10-16T18:30:56.860Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "mcp.so",
+      "url": "https://mcp.so/servers/mcp-echarts",
+      "canonical_url": "https://mcp.so/servers/mcp-echarts",
+      "sitemap": "https://mcp.so/sitemap.xml?section=servers&page=19",
+      "candidate": "mcp echarts",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-10-16T17:58:39.192Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "ai-bot.cn",
+      "url": "https://ai-bot.cn/lifeval/",
+      "canonical_url": "https://ai-bot.cn/lifeval/",
+      "sitemap": "https://ai-bot.cn/sitemap.xml",
+      "candidate": "lifeval",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T17:30:58+08:00",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "ai-bot.cn",
+      "url": "https://ai-bot.cn/explorer-one/",
+      "canonical_url": "https://ai-bot.cn/explorer-one/",
+      "sitemap": "https://ai-bot.cn/sitemap.xml",
+      "candidate": "explorer one",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T17:13:30+08:00",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "aitoptools",
+      "url": "https://aitoptools.com/tool/empacer/",
+      "canonical_url": "https://aitoptools.com/tool/empacer/",
+      "sitemap": "https://aitoptools.com/sitemap.xml",
+      "candidate": "empacer",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T06:39:15.218Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
+    {
+      "site": "futurepedia",
+      "url": "https://www.futurepedia.io/tool/dzine",
+      "canonical_url": "https://www.futurepedia.io/tool/dzine",
+      "sitemap": "https://www.futurepedia.io/sitemap_tools.xml",
+      "candidate": "dzine",
+      "first_seen": "2026-11-03T09:46:43.856581+00:00",
+      "lastmod": "2026-11-03T08:32:17.054Z",
+      "note": "候选词由网址提取，尚未验证搜索需求"
+    },
     {
       "site": "glama",
       "url": "https://glama.ai/mcp/connectors/io.github.branch-docs/ai",
@@ -20658,9 +21983,30 @@
       "note": "候选词由网址提取，尚未验证搜索需求"
     }
   ],
-  "sitemap_new_count": 920,
+  "sitemap_new_count": 166,
   "sitemap_history_days": 30,
   "sitemap_truncated": false,
+  "stack_demand": {
+    "questions": [
+      {
+        "id": "softwarerecs:95755",
+        "site": "softwarerecs",
+        "title": "Can the WhatsApp Business Calling API initiate calls using a Canadian business phone number?",
+        "candidate": "Can the WhatsApp Business Calling API initiate calls using a Canadian business",
+        "url": "https://softwarerecs.stackexchange.com/questions/95755/can-the-whatsapp-business-calling-api-initiate-calls-using-a-canadian-business-p",
+        "created_at": "2026-11-02T07:59:15+00:00",
+        "score": 0,
+        "author": "Mustafa Ahmad",
+        "author_url": "https://softwarerecs.stackexchange.com/users/110482/mustafa-ahmad",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "window_days": 7,
+    "errors": [],
+    "successful": 4,
+    "total_sources": 4,
+    "truncated": false
+  },
   "competitors": [
     {
       "id": "glama",
