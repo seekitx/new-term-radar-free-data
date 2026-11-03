@@ -138,6 +138,7 @@ def collect(cfg, state: Path, fetch):
                 raise ValueError('网址数量超过安全上限，请缩小监控范围')
             pending, local_new, local_recent, local_baseline = [], [], [], []
             baseline_shards, seen_urls = 0, set()
+            raw_count, rejected_host, rejected_path, duplicate_count, raw_examples, rejected_examples = 0, 0, 0, 0, [], []
             old_sets = {}
             old_union = set(legacy or ())
             for shard, _ in shards:
@@ -156,11 +157,23 @@ def collect(cfg, state: Path, fetch):
                 now_urls = set()
                 items=[]
                 for url, lastmod in raw_pages:
-                    if not _same_host(url,index) or EXCLUDE_PATH.search(urllib.parse.urlsplit(url).path):
+                    raw_count += 1
+                    if len(raw_examples) < 5:
+                        raw_examples.append(url)
+                    if not _same_host(url,index):
+                        rejected_host += 1
+                        if len(rejected_examples) < 5:
+                            rejected_examples.append({'url': url, 'reason': '非同一网站域名或无效地址'})
+                        continue
+                    if EXCLUDE_PATH.search(urllib.parse.urlsplit(url).path):
+                        rejected_path += 1
+                        if len(rejected_examples) < 5:
+                            rejected_examples.append({'url': url, 'reason': '分类、标签、作者、归档等路径'})
                         continue
                     normalized = _normal(url, bool(entry.get('strip_locale')))
                     now_urls.add(normalized)
                     if normalized in seen_urls:
+                        duplicate_count += 1
                         continue
                     seen_urls.add(normalized)
                     items.append((normalized, url, lastmod))
@@ -189,7 +202,11 @@ def collect(cfg, state: Path, fetch):
             recent.extend(local_recent)
             baseline.extend(local_baseline)
             reports[site]={'urls':len(seen_urls),'new':len(local_new),'first_run':baseline_shards == len(shards),
-                           'baseline_shards':baseline_shards,'shards':len(shards),'sample':[x['url'] for x in local_new[:8]]}
+                           'baseline_shards':baseline_shards,'shards':len(shards),'sample':[x['url'] for x in local_new[:8]],
+                           'trace': {'raw':raw_count,'excluded_host':rejected_host,'excluded_path':rejected_path,
+                                     'duplicates':duplicate_count,'usable_unique':len(seen_urls),
+                                     'fetched_examples':raw_examples,'excluded_examples':rejected_examples,
+                                     'new_examples':local_new[:5]}}
         except Exception as exc:
             reports[site]={'error':f'{type(exc).__name__}: {str(exc)[:180]}','new':0}
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()

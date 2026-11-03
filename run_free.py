@@ -117,6 +117,14 @@ result = {'generated_at':now,'leads':rows,'sources':statuses,'mode':'free','vers
           'sitemap_pages':siteblock.get('pages', []), 'sitemap_new_count':siteblock.get('pages_new', 0),
           'sitemap_history_days':siteblock.get('history_days', 30), 'sitemap_truncated':siteblock.get('truncated', False),
           'stack_demand':stack,
+          'flow_trace': {'hf':blocks['hf'].get('trace'), 'breakout':blocks['breakout'].get('trace'),
+                         'feeds':fb.get('trace'),
+                         'sitemaps':{name:item.get('trace') for name,item in siteblock.get('sites',{}).items()},
+                         'stack':stack.get('trace'),
+                         'rules':{'breakout':cfg['breakout'], 'feeds_max_per_source':cfg['feeds']['max_per_feed'],
+                                  'hn_min_points':cfg['feeds']['hn_points'], 'stack_window_days':stack_demand.WINDOW_DAYS,
+                                  'stack_all':cfg['asks']['stack_all'], 'stack_sites':cfg['asks']['stack_sites'],
+                                  'stack_titles':cfg['asks']['stack_titles']}},
           'competitors':[{'id':name,'index':site.get('index',''),'enabled':site.get('enabled',True),
                           'shards':site.get('shards','')} for name,site in cfg['sitemaps'].items()]}
 out = ROOT / 'public' / 'latest.json'

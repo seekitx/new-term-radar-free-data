@@ -158,11 +158,18 @@ def _entered(items: list[dict], before: list[str], what: str) -> list[dict]:
 def hf_new(cfg: dict, state: Path) -> dict:
     """Models, and Spaces (the demos people try), that entered Hugging Face's trending top HF_TOP since
     the last run. One public request each; each list keeps its own snapshot."""
-    out = {"first_run": False, "terms": []}
+    out = {"first_run": False, "terms": [], "trace": {}}
     for what, file in (("models", "hf_top.json.gz"), ("spaces", "hf_spaces_top.json.gz")):
         items = _trending(what)
         path = state / file
         before = snap.load(path)
+        seen_before = set(before or ())
+        incoming = [m for m in items[:HF_TOP] if before is not None and m["id"] not in seen_before]
+        out["trace"][what] = {"fetched": len(items), "examined": min(len(items), HF_TOP),
+                              "previous_recorded": before is not None,
+                              "entered": len(incoming) if before is not None else None,
+                              "fetched_examples": [m["id"] for m in items[:5]],
+                              "entered_examples": [m["id"] for m in incoming[:5]]}
         if items:
             snap.save(path, [m["id"] for m in items])
         out[what] = len(items)

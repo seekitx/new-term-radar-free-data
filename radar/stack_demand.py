@@ -49,10 +49,12 @@ def collect(cfg: dict) -> dict:
     requests = [("questions", site, {}) for site in settings["stack_all"]]
     requests += [("search", site, {"intitle": query})
                  for site in settings["stack_sites"] for query in settings["stack_titles"]]
-    rows, errors, seen, backoff = [], [], set(), {}
+    rows, errors, seen, backoff, trace = [], [], set(), {}, []
     incomplete = False
     successful = 0
     for path, site, extra in requests:
+        detail = {"site": site, "title_contains": extra.get("intitle"), "received": 0, "kept": 0, "duplicates_or_missing_id": 0}
+        trace.append(detail)
         try:
             for page in range(1, MAX_PAGES + 1):
                 wait = backoff.get(path, 0) - time.monotonic()
@@ -66,10 +68,13 @@ def collect(cfg: dict) -> dict:
                     successful += 1
                 backoff[path] = time.monotonic() + max(0, int(data.get("backoff") or 0))
                 for question in data.get("items", []):
+                    detail["received"] += 1
                     key = (site, question.get("question_id"))
                     if not key[1] or key in seen:
+                        detail["duplicates_or_missing_id"] += 1
                         continue
                     seen.add(key)
+                    detail["kept"] += 1
                     owner = question.get("owner") or {}
                     title = html.unescape(question.get("title") or "")
                     rows.append({"id": f"{site}:{key[1]}", "site": site, "title": title,
@@ -84,7 +89,8 @@ def collect(cfg: dict) -> dict:
                 if page == MAX_PAGES:
                     incomplete = True
         except Exception as exc:
+            detail["error"] = f"{type(exc).__name__}: {str(exc)[:100]}"
             errors.append(f"{site}: {type(exc).__name__}: {str(exc)[:100]}")
     rows.sort(key=lambda item: item["created_at"], reverse=True)
     return {"questions": rows, "window_days": WINDOW_DAYS, "errors": errors,
-            "successful": successful, "total_sources": len(requests), "truncated": incomplete}
+            "successful": successful, "total_sources": len(requests), "truncated": incomplete, "trace": trace}

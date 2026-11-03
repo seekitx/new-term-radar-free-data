@@ -113,4 +113,7 @@ def breakouts(cfg: dict, state: Path) -> dict:
                       "note": t("note_breakout", repo=row["repo"], stars=row["stars"], velocity=row["velocity"], gain=gain),
                       "examples": [f"{row['repo']}: {row['description']}"]})
     return {"searched": len(repos), "first_run": before is None, "repos": rows, "terms": terms,
+            "trace": {"fetched_examples": [{"repo": r["full_name"], "stars": r["stargazers_count"],
+                                            "created_at": r["created_at"]} for r in repos[:5]],
+                      "qualified_examples": rows[:5], "qualified_shown": len(rows), "new_leads": len(terms)},
             "window_days": c["window_days"]}

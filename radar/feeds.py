@@ -197,7 +197,7 @@ def feeds(cfg: dict, state: Path, today: date | None = None, weekly: bool = Fals
     weekly = weekly or today.weekday() == c["weekday"]
     path = state / "feeds.json.gz"
     seen: dict[str, str] = snap.load(path) or {}
-    out = {"read": {}, "new": {}, "first_run": [], "errors": [], "cost_micros": 0, "terms": []}
+    out = {"read": {}, "new": {}, "first_run": [], "errors": [], "cost_micros": 0, "terms": [], "trace": {}}
     for name in c["enabled"]:
         if name in c["weekly"] and not weekly:
             continue
@@ -210,6 +210,10 @@ def feeds(cfg: dict, state: Path, today: date | None = None, weekly: bool = Fals
         out["read"][name] = len(items)
         first = not any(k.startswith(name + ":") for k in seen)
         fresh = [i for i in items if f"{name}:{i['key']}" not in seen]
+        trace = {"fetched": len(items), "unseen": len(fresh), "first_run": first,
+                 "fetched_examples": [{"name": i.get("name", ""), "url": i.get("url", "")} for i in items[:5]],
+                 "selected": 0, "selected_examples": []}
+        out["trace"][name] = trace
         for i in fresh:
             seen[f"{name}:{i['key']}"] = today.isoformat()
         if first:               # the snapshot is taken; what the source itself dates as recent is news already
@@ -218,6 +222,8 @@ def feeds(cfg: dict, state: Path, today: date | None = None, weekly: bool = Fals
             if not fresh:
                 continue
         fresh = sorted(fresh, key=lambda i: -(i.get("score") or 0))[:c["max_per_feed"]]
+        trace["selected"] = len(fresh)
+        trace["selected_examples"] = [{"name": i.get("name", ""), "url": i.get("url", "")} for i in fresh[:5]]
         out["new"][name] = fresh
         out["terms"] += [{"term": i["name"].lower(), "recent": 1, "about": (i["url"], i["about"]) if i["url"] else None,
                           "examples": [f"{LABEL[name]}{' · ' + i['where'] if i.get('where') else ''}: {i['name']}"],
