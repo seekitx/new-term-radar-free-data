@@ -1,0 +1,41 @@
+name: 单独采集流程明细
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: free-radar
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 读取已保存的来源对照
+        uses: actions/cache/restore@v4
+        with:
+          path: state
+          key: free-radar-observe-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: free-radar-state-
+      - name: 单独采集流程样本
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          AISA_API_KEY: ''
+          GOANYAPI_API_KEY: ''
+          TRUSTMRR_API_KEY: ''
+        run: |
+          python run_free.py
+          cp public/latest.json public/flow-diagnostic.json
+      - name: 发布流程明细，不覆盖日报或保存对照
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/flow-diagnostic.json
+          if ! git diff --cached --quiet; then
+            git commit -m '更新独立流程采集明细'
+            git push
+          fi
