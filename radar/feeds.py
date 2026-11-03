@@ -210,6 +210,15 @@ def feeds(cfg: dict, state: Path, today: date | None = None, weekly: bool = Fals
         out["read"][name] = len(items)
         first = not any(k.startswith(name + ":") for k in seen)
         fresh = [i for i in items if f"{name}:{i['key']}" not in seen]
+        unseen_keys = {i['key'] for i in fresh}
+        def decisions(selected):
+            selected_keys = {i['key'] for i in selected}
+            return [{"name": i.get("name", ""), "url": i.get("url", ""),
+                     "reason": ("历史记录已有，不重复输出" if i['key'] not in unseen_keys else
+                                "首次采集且来源未标记为近期，只建立对照" if first and not i.get("fresh") else
+                                "符合新条目条件但未进入输出数量上限" if i['key'] not in selected_keys else
+                                "未见过且符合条件，列入本次输出")}
+                    for i in items[:5]]
         trace = {"fetched": len(items), "unseen": len(fresh), "first_run": first,
                  "fetched_examples": [{"name": i.get("name", ""), "url": i.get("url", "")} for i in items[:5]],
                  "selected": 0, "selected_examples": []}
@@ -220,10 +229,12 @@ def feeds(cfg: dict, state: Path, today: date | None = None, weekly: bool = Fals
             out["first_run"].append(name)
             fresh = [i for i in fresh if i.get("fresh")]
             if not fresh:
+                trace["decisions"] = decisions([])
                 continue
         fresh = sorted(fresh, key=lambda i: -(i.get("score") or 0))[:c["max_per_feed"]]
         trace["selected"] = len(fresh)
         trace["selected_examples"] = [{"name": i.get("name", ""), "url": i.get("url", "")} for i in fresh[:5]]
+        trace["decisions"] = decisions(fresh)
         out["new"][name] = fresh
         out["terms"] += [{"term": i["name"].lower(), "recent": 1, "about": (i["url"], i["about"]) if i["url"] else None,
                           "examples": [f"{LABEL[name]}{' · ' + i['where'] if i.get('where') else ''}: {i['name']}"],

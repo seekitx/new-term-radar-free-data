@@ -53,7 +53,8 @@ def collect(cfg: dict) -> dict:
     incomplete = False
     successful = 0
     for path, site, extra in requests:
-        detail = {"site": site, "title_contains": extra.get("intitle"), "received": 0, "kept": 0, "duplicates_or_missing_id": 0}
+        detail = {"site": site, "title_contains": extra.get("intitle"), "received": 0, "kept": 0,
+                  "duplicates_or_missing_id": 0, "examples": []}
         trace.append(detail)
         try:
             for page in range(1, MAX_PAGES + 1):
@@ -70,13 +71,24 @@ def collect(cfg: dict) -> dict:
                 for question in data.get("items", []):
                     detail["received"] += 1
                     key = (site, question.get("question_id"))
+                    title = html.unescape(question.get("title") or "")
+                    owner = question.get("owner") or {}
+                    example = None
+                    if len(detail["examples"]) < 5:
+                        example = {"title": title, "url": question.get("link") or "",
+                                   "author": html.unescape(owner.get("display_name") or "已注销用户"),
+                                   "author_url": owner.get("link") or "", "license": question.get("content_license") or "CC BY-SA"}
+                        detail["examples"].append(example)
                     if not key[1] or key in seen:
                         detail["duplicates_or_missing_id"] += 1
+                        if example is not None:
+                            example["decision"] = "缺少问题编号" if not key[1] else "问题编号重复，已去重"
                         continue
                     seen.add(key)
                     detail["kept"] += 1
-                    owner = question.get("owner") or {}
-                    title = html.unescape(question.get("title") or "")
+                    if example is not None:
+                        example["decision"] = "编号有效且未重复，保留问题"
+                        example["candidate"] = candidate(title)
                     rows.append({"id": f"{site}:{key[1]}", "site": site, "title": title,
                                  "candidate": candidate(title), "url": question.get("link") or "",
                                  "created_at": datetime.fromtimestamp(question.get("creation_date", 0), timezone.utc).isoformat(),

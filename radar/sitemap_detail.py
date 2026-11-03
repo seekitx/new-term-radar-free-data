@@ -139,6 +139,7 @@ def collect(cfg, state: Path, fetch):
             pending, local_new, local_recent, local_baseline = [], [], [], []
             baseline_shards, seen_urls = 0, set()
             raw_count, rejected_host, rejected_path, duplicate_count, raw_examples, rejected_examples = 0, 0, 0, 0, [], []
+            decisions = []
             old_sets = {}
             old_union = set(legacy or ())
             for shard, _ in shards:
@@ -158,14 +159,22 @@ def collect(cfg, state: Path, fetch):
                 items=[]
                 for url, lastmod in raw_pages:
                     raw_count += 1
+                    decision = None
+                    if len(decisions) < 5:
+                        decision = {'url': url, 'sitemap': shard}
+                        decisions.append(decision)
                     if len(raw_examples) < 5:
                         raw_examples.append(url)
                     if not _same_host(url,index):
+                        if decision is not None:
+                            decision['reason'] = '非同站或无效网址，排除'
                         rejected_host += 1
                         if len(rejected_examples) < 5:
                             rejected_examples.append({'url': url, 'reason': '非同一网站域名或无效地址'})
                         continue
                     if EXCLUDE_PATH.search(urllib.parse.urlsplit(url).path):
+                        if decision is not None:
+                            decision['reason'] = '分类、标签、作者、归档等路径，排除'
                         rejected_path += 1
                         if len(rejected_examples) < 5:
                             rejected_examples.append({'url': url, 'reason': '分类、标签、作者、归档等路径'})
@@ -173,9 +182,19 @@ def collect(cfg, state: Path, fetch):
                     normalized = _normal(url, bool(entry.get('strip_locale')))
                     now_urls.add(normalized)
                     if normalized in seen_urls:
+                        if decision is not None:
+                            decision['reason'] = '同一同行中重复的网址，去重'
                         duplicate_count += 1
                         continue
                     seen_urls.add(normalized)
+                    if decision is not None:
+                        if old is None:
+                            decision['reason'] = '该清单首次记录，仅建立对照'
+                        elif normalized in old_union:
+                            decision['reason'] = '上次对照已有，未作为新增'
+                        else:
+                            decision['reason'] = '对照中不存在，识别为新增网址'
+                            decision['candidate'] = _candidate(url)
                     items.append((normalized, url, lastmod))
                 if not now_urls:
                     raise ValueError('内容 Sitemap 没有可用网址，保留旧记录')
@@ -206,7 +225,7 @@ def collect(cfg, state: Path, fetch):
                            'trace': {'raw':raw_count,'excluded_host':rejected_host,'excluded_path':rejected_path,
                                      'duplicates':duplicate_count,'usable_unique':len(seen_urls),
                                      'fetched_examples':raw_examples,'excluded_examples':rejected_examples,
-                                     'new_examples':local_new[:5]}}
+                                     'new_examples':local_new[:5], 'decisions':decisions}}
         except Exception as exc:
             reports[site]={'error':f'{type(exc).__name__}: {str(exc)[:180]}','new':0}
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()

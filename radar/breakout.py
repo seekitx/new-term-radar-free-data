@@ -90,7 +90,8 @@ def breakouts(cfg: dict, state: Path) -> dict:
             break
     path = state / "gh_stars.json.gz"
     before = snap.load(path)
-    rows = score(repos, before, datetime.now(timezone.utc), c["velocity_min"], c["delta_min"])
+    scored_at = datetime.now(timezone.utc)
+    rows = score(repos, before, scored_at, c["velocity_min"], c["delta_min"])
     if repos:
         snap.save(path, {r["full_name"]: r["stargazers_count"] for r in repos})
     flagged_path = state / "gh_flagged.json.gz"
@@ -112,8 +113,23 @@ def breakouts(cfg: dict, state: Path) -> dict:
         terms.append({"term": row["variants"][0], "recent": 1, "variants": row["variants"], "repo": row["repo"],
                       "note": t("note_breakout", repo=row["repo"], stars=row["stars"], velocity=row["velocity"], gain=gain),
                       "examples": [f"{row['repo']}: {row['description']}"]})
+    accepted = {row["repo"]: row for row in rows}
+    examples = []
+    for repo in repos[:5]:
+        created = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00"))
+        age = max((scored_at - created).total_seconds() / 86400, 1.0)
+        velocity = repo["stargazers_count"] / age
+        delta = repo["stargazers_count"] - before[repo["full_name"]] if before and repo["full_name"] in before else None
+        qualified = velocity >= c["velocity_min"] or (delta is not None and delta >= c["delta_min"])
+        selected = accepted.get(repo["full_name"])
+        reason = ("平均增长和上次增量均未达门槛" if not qualified else
+                  "达到增长门槛，但未进入前 15 个" if selected is None else
+                  "通过门槛，但此前已经报告过" if not selected["new"] else "通过门槛，本次首次列为候选")
+        examples.append({"repo":repo["full_name"], "stars":repo["stargazers_count"],
+                         "velocity":round(velocity), "delta":delta, "reason":reason})
     return {"searched": len(repos), "first_run": before is None, "repos": rows, "terms": terms,
             "trace": {"fetched_examples": [{"repo": r["full_name"], "stars": r["stargazers_count"],
                                             "created_at": r["created_at"]} for r in repos[:5]],
-                      "qualified_examples": rows[:5], "qualified_shown": len(rows), "new_leads": len(terms)},
+                      "qualified_examples": rows[:5], "qualified_shown": len(rows), "new_leads": len(terms),
+                      "decisions":examples},
             "window_days": c["window_days"]}

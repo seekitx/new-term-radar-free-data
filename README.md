@@ -6,6 +6,8 @@ GitHub Actions 缓存保存来源快照；缓存被清理后，部分来源需�
 
 数据流画布可展开查看每一环节的规则、来源状态和少量公开数据样本。新增的采集过程记录从部署后的下一次采集开始产生；旧报告未保存的原始数量和淘汰原因不会被补造。为控制公开报告大小，各来源只保留少量示例，非完整原始数据。
 
+必要时可手动运行“单独采集流程明细”。它使用已有的来源对照进行一次独立采集，只发布 `public/flow-diagnostic.json`，不保存这次对照，也不覆盖 `public/latest.json`；因此过程明细的时间和数字可能与日报不同。页面会标明数据来自独立采集还是日报，并优先使用时间较新的过程记录。
+
 ## Stack Exchange 用户需求
 
 每日读取最近 7 天的 Software Recommendations 问题，以及 Stack Overflow、Super User、Web Applications 中标题包含 automate 的问题。沿用上游 `asks.stack_all`、`asks.stack_sites`、`asks.stack_titles` 默认配置；每个社区最多读取 3 页，每页 50 条。逐条保留标题、作者、原文和许可证，按社区与问题编号去重。候选词是规则清理后的标题，不代表已经验证的新词、搜索量或付费需求；搜索和趋势入口需要人工核验。

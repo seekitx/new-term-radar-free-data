@@ -165,11 +165,21 @@ def hf_new(cfg: dict, state: Path) -> dict:
         before = snap.load(path)
         seen_before = set(before or ())
         incoming = [m for m in items[:HF_TOP] if before is not None and m["id"] not in seen_before]
+        examples = []
+        for rank, model in enumerate(items[:5], 1):
+            term = base_name(model["id"])
+            if what == "spaces":
+                term = " ".join(w for w in term.split() if w not in SPACE_NOISE)
+            reason = ("首次采集，仅建立对照" if before is None else
+                      "上次榜单已有，未作为新进入" if model["id"] in seen_before else
+                      "名称清洗后为空或为停用词，排除" if not term or term in STOP else
+                      "新进入前 50 名，通过初筛；后续会合并同名版本")
+            examples.append({"id": model["id"], "rank": rank, "term": term, "reason": reason})
         out["trace"][what] = {"fetched": len(items), "examined": min(len(items), HF_TOP),
                               "previous_recorded": before is not None,
                               "entered": len(incoming) if before is not None else None,
                               "fetched_examples": [m["id"] for m in items[:5]],
-                              "entered_examples": [m["id"] for m in incoming[:5]]}
+                              "entered_examples": [m["id"] for m in incoming[:5]], "decisions": examples}
         if items:
             snap.save(path, [m["id"] for m in items])
         out[what] = len(items)
