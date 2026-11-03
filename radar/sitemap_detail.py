@@ -172,12 +172,14 @@ def collect(cfg, state: Path, fetch):
                         if len(rejected_examples) < 5:
                             rejected_examples.append({'url': url, 'reason': '非同一网站域名或无效地址'})
                         continue
-                    if EXCLUDE_PATH.search(urllib.parse.urlsplit(url).path):
+                    excluded_match = EXCLUDE_PATH.search(urllib.parse.urlsplit(url).path)
+                    if excluded_match:
+                        excluded_reason = f"网址路径包含 {excluded_match.group(0).strip('/')}，按现有规则排除（可能包含有效功能页）"
                         if decision is not None:
-                            decision['reason'] = '分类、标签、作者、归档等路径，排除'
+                            decision['reason'] = excluded_reason
                         rejected_path += 1
                         if len(rejected_examples) < 5:
-                            rejected_examples.append({'url': url, 'reason': '分类、标签、作者、归档等路径'})
+                            rejected_examples.append({'url': url, 'reason': excluded_reason})
                         continue
                     normalized = _normal(url, bool(entry.get('strip_locale')))
                     now_urls.add(normalized)
