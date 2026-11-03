@@ -14,7 +14,7 @@ from pathlib import Path
 # Paid integrations must not inherit any credentials or enable the model judge.
 for name in ('AISA_API_KEY','GOANYAPI_API_KEY','TRUSTMRR_API_KEY','RESEND_API_KEY'):
     os.environ.pop(name, None)
-from radar import config, sources, breakout, sitemaps, sitemap_detail, feeds, report
+from radar import config, sources, breakout, sitemaps, sitemap_detail, feeds, report, stack_demand
 
 ROOT = Path(__file__).resolve().parent
 os.chdir(ROOT)
@@ -68,6 +68,7 @@ blocks = {
     'breakout': collect(lambda: breakout.breakouts(cfg, state)),
     'sitemap': collect(lambda: sitemap_detail.collect(cfg, state, checked_fetch)),
     'feed': collect(lambda: feeds.feeds(cfg, state)),
+    'stack_demand': collect(lambda: stack_demand.collect(cfg)),
 }
 leads, judge = report.leads(cfg, blocks)
 rows = []
@@ -103,10 +104,19 @@ for name in cfg['feeds']['enabled']:
     error = next((x for x in errors if x.startswith(name+':')), fb.get('error',''))
     statuses.append({'id':'feed:'+name,'label':labels.get(name,name),'status':'error' if error else ('baseline' if name in fb.get('first_run',[]) else 'ok'),
                      'count':len(fb.get('new',{}).get(name,[])),'message':str(error)[:150]})
+stack = blocks['stack_demand']
+stack_errors = stack.get('errors', [])
+stack_status = 'error' if stack.get('error') or not stack.get('successful') else ('partial' if stack_errors or stack.get('truncated') else 'ok')
+stack_message = '; '.join(stack_errors) or stack.get('error', '')
+if stack.get('truncated'):
+    stack_message += ('; ' if stack_message else '') + '部分社区问题较多，仅采集最近的部分结果。'
+statuses.append({'id':'stackexchange','label':'Stack Exchange 用户需求','status':stack_status,
+                 'count':len(stack.get('questions', [])), 'message':stack_message[:250]})
 now = datetime.now(timezone.utc).isoformat()
 result = {'generated_at':now,'leads':rows,'sources':statuses,'mode':'free','version':2,
           'sitemap_pages':siteblock.get('pages', []), 'sitemap_new_count':siteblock.get('pages_new', 0),
           'sitemap_history_days':siteblock.get('history_days', 30), 'sitemap_truncated':siteblock.get('truncated', False),
+          'stack_demand':stack,
           'competitors':[{'id':name,'index':site.get('index',''),'enabled':site.get('enabled',True),
                           'shards':site.get('shards','')} for name,site in cfg['sitemaps'].items()]}
 out = ROOT / 'public' / 'latest.json'
